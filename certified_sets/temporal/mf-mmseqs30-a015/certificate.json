@@ -1,0 +1,35 @@
+{
+  "protocol": "HoLT",
+  "cohort": "temporal",
+  "task": "mf",
+  "tier": "mmseqs30",
+  "score_routes": [
+    "MMseqs2",
+    "Foldseek",
+    "ESM-2",
+    "ESM C"
+  ],
+  "alpha": 0.15,
+  "delta": 0.1,
+  "gamma": 0.025,
+  "calibration_representatives": 1394,
+  "selected_index": 6,
+  "selected_cut": -1.009200823525378,
+  "selected_calibration_n": 264,
+  "selected_calibration_events": 26,
+  "binomial_upper_bound": 0.14096861983087156,
+  "certified_chains": 2308,
+  "measured_test_copy_events": 16,
+  "chains": "chains.tsv",
+  "chains_sha256": "f222fc3ebaa23c38b98d1cc328801e414ef05666ccdd677e424a7590125ce80a",
+  "source_sha256": "ae1b84a58ed67d27a1940fd6e23ea8636b6a1f813a9afb940a201dfc7a7dafac",
+  "provenance": {
+    "dataset_release": "PDB entries first released after May 2020; SIFTS mapping 4 October 2026",
+    "annotation_vocabulary": "DeepFRI 2019 Gene Ontology vocabulary",
+    "sequence_structure_source": "PDB SEQRES and C-alpha structures",
+    "deepfri_source_commit": "3bd6c7eae67894ccedbe1117e33b3abe544bca71",
+    "annotations": "SIFTS experimental GO annotations",
+    "sifts_mapping_date": "2026-10-04"
+  },
+  "source_kind": "frozen certified-chain evidence"
+}

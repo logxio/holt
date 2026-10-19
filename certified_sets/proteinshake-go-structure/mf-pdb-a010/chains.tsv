@@ -1,0 +1,8 @@
+id	pdb	chain	family_or_cluster	task	tier	alpha	gamma	max_mmseqs_identity	learned_score	test_copy_event
+1DMF	1DMF		1DMF	mf	pdb	0.1	0.025	NaN	NaN	NaN
+1J5M	1J5M		1DMF	mf	pdb	0.1	0.025	NaN	NaN	NaN
+1KCP	1KCP		1KCP	mf	pdb	0.1	0.025	NaN	NaN	NaN
+5TOF	5TOF		5TOF	mf	pdb	0.1	0.025	NaN	NaN	NaN
+5TOG	5TOG		5TOF	mf	pdb	0.1	0.025	NaN	NaN	NaN
+6CUM	6CUM		6CUM	mf	pdb	0.1	0.025	NaN	NaN	NaN
+6SVH	6SVH		6SVH	mf	pdb	0.1	0.025	NaN	NaN	NaN

@@ -1,0 +1,34 @@
+{
+  "protocol": "HoLT",
+  "cohort": "proteinshake-go-sequence",
+  "task": "bp",
+  "tier": "mmseqs30",
+  "score_routes": [
+    "MMseqs2",
+    "Foldseek"
+  ],
+  "alpha": 0.1,
+  "delta": 0.1,
+  "gamma": 0.025,
+  "calibration_representatives": 1665,
+  "selected_index": 4,
+  "selected_cut": -2.092005961172154,
+  "selected_calibration_n": 273,
+  "selected_calibration_events": 13,
+  "binomial_upper_bound": 0.08005354948041367,
+  "certified_chains": 49,
+  "measured_test_copy_events": 2,
+  "chains": "chains.tsv",
+  "chains_sha256": "9644d06cae5916cf4b236e92bdcfa10f28cccebbe0e1aabad4306621d7b54036",
+  "source_sha256": "18c613a82b1a543754fcbd760f26ef05934b436eef72c5321d9b9885f6405bf3",
+  "provenance": {
+    "dataset_release": "ProteinShake GO sequence split",
+    "split": "sequence",
+    "structure_source": "PDB",
+    "proteinshake_zenodo_record": "15259912",
+    "proteinshake_source_commit": "ee37591e5aaaae748ae08548f47f64069303839b",
+    "proteinshake_release_commit": "93695e9aa18bcff2c51572f45e5ade67d13b1a68",
+    "training_roles_sha256": "57896b7660fffd098068adfaea9bdb94528890eae58559fdcebe8629a85aa11d"
+  },
+  "source_kind": "frozen certified-chain evidence"
+}
