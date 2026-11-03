@@ -1,0 +1,97 @@
+{
+  "name": "HoLT",
+  "frozen": "The score, the candidate path and the <30% sequence-identity guard are fit and calibrated on training chains alone; test labels are read once, after the rule is frozen, to report counts and copy events",
+  "purpose": "risk-controlled hard subset of an existing benchmark's test set: chains that a fixed homology adversary cannot answer by copying training labels",
+  "inputs": {
+    "training_chains": "chains with labels; sequences, structures, PDB entry of each chain",
+    "held_out_chains": "the benchmark's validation and test chains, scored only after the rule is frozen",
+    "hit_tables": "for each route, the training self-search: MMseqs2 (identity, bits; up to 300 hits), Foldseek (bits; up to 300 hits), ESM-2 650M and ESM C 600M last-layer mean cosine (500 nearest)",
+    "clusters": "MMseqs2 easy-cluster of the training sequences at --min-seq-id 0.3 -c 0.8 --cov-mode 0"
+  },
+  "unit": "family: a connected component of the graph that links training chains of one PDB entry and chains of one 30% cluster",
+  "roles": {
+    "design": "representatives (primary): per tier and label set, at most one eligible chain per family, no representative among another representative's top-5 annotated hits on any of the four routes (the chains whose labels its features and copying event read); grown greedily from hit lists alone, fewest conflicts first, ties by sha256('rep:' + chain id)",
+    "representatives_library": "the whole training set outside the representative's own family (mmseqs30) or PDB entry (pdb), as test chains retrieve the training set",
+    "design_chains": "every eligible non-representative chain, retrieving the training set without the representatives of that label set (and outside its own family or entry)",
+    "split_variant": "40% of families by sha256 of the family name calibrate with one representative each (smallest sha256('rep:' + chain id)) and retrieve only the other 60%, which is also the design set",
+    "calibration_fraction_split": 0.4
+  },
+  "tiers": {
+    "mmseqs30": "family held out: a representative retrieves training chains outside its own family",
+    "pdb": "entry held out: a representative retrieves training chains outside its own PDB entry; its family stays in the library"
+  },
+  "adversary": {
+    "homology": "per route MMseqs2 and Foldseek: labels of the top-scoring annotated hit and the strict-majority vote of the five top-scoring annotated hits; on held-out chains also every same-PDB training chain",
+    "four": "the same with the ESM-2 and ESM C neighbours added"
+  },
+  "events": {
+    "family_of_label_sets": [
+      "ec_exact",
+      "bp_raw",
+      "mf_raw",
+      "cc_raw"
+    ],
+    "ec_exact": "a copied label set contains a complete level-4 EC number of the chain; only chains with such a number are scored",
+    "go_raw": "a copied GO term set reaches F1 >= 0.5 against the chain's terms",
+    "diagnostic_outside_family": [
+      "bp_relative",
+      "mf_relative",
+      "cc_relative"
+    ]
+  },
+  "score": {
+    "model": "logistic regression (C = 1, standardised features) fitted on design chains",
+    "features": [
+      "identity",
+      "log1p_bits",
+      "esm2_cosine",
+      "esmc_cosine",
+      "panel_agree",
+      "panel_consensus",
+      "panel_vote_size",
+      "log_length"
+    ]
+  },
+  "path": {
+    "design_quantiles": [
+      1,
+      2,
+      3,
+      5,
+      8,
+      12,
+      18,
+      26,
+      38,
+      52,
+      70,
+      100
+    ],
+    "set": "chains whose score is below the quantile and whose maximum MMseqs2 identity at any coverage is below 30%; held-out chains with a training sibling or an identical training sequence never enter"
+  },
+  "test": {
+    "statistic": "number of calibration representatives in the candidate that the adversary answers; exact binomial lower tail at alpha",
+    "primary": "guard design, calibration and deployment at maximum MMseqs2 identity below 30% at any coverage; fit on guarded design; fixed sequence starts at the first candidate whose size admits a zero-event pass at alpha = 0.05; each candidate uses delta / (K x 4), stopping at the first failure; CLI default K = 1; JSON key 'pooled'",
+    "variants": {
+      "bonferroni": "every candidate at delta / (K x 4 x 12), the largest passing one",
+      "mondrian": "design tertiles of the label-free vote size; fixed sequence within each stratum at delta / (K x 4 x strata)",
+      "cluster": "split design, mmseqs30 only: every eligible chain of a calibration family, a family counts once if any of its chains in the candidate is answered; fixed sequence at delta / (K x 4)"
+    }
+  },
+  "levels": {
+    "alpha": [
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.3,
+      0.5
+    ],
+    "primary_alpha": 0.1,
+    "delta": 0.1
+  },
+  "screens": {
+    "learned": "the score above",
+    "similarity": "one common design quantile on the four best similarities (ablation)"
+  }
+}

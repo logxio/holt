@@ -1,0 +1,14 @@
+id	pdb	chain	family_or_cluster	task	tier	alpha	gamma	max_mmseqs_identity	learned_score	test_copy_event
+1B7S	1B7S		2RSC	cc	mmseqs30	0.1	0.025	NaN	NaN	NaN
+1KCP	1KCP		1KCP	cc	mmseqs30	0.1	0.025	NaN	NaN	NaN
+3TGT	3TGT		8DCQ	cc	mmseqs30	0.1	0.025	NaN	NaN	NaN
+4BA8	4BA8		4BA8	cc	mmseqs30	0.1	0.025	NaN	NaN	NaN
+4DKQ	4DKQ		8DCQ	cc	mmseqs30	0.1	0.025	NaN	NaN	NaN
+5TOF	5TOF		5TOF	cc	mmseqs30	0.1	0.025	NaN	NaN	NaN
+5TOG	5TOG		5TOF	cc	mmseqs30	0.1	0.025	NaN	NaN	NaN
+6CN2	6CN2		7N7L	cc	mmseqs30	0.1	0.025	NaN	NaN	NaN
+6SVH	6SVH		6SVH	cc	mmseqs30	0.1	0.025	NaN	NaN	NaN
+6USW	6USW		8DCQ	cc	mmseqs30	0.1	0.025	NaN	NaN	NaN
+6UTB	6UTB		8DCQ	cc	mmseqs30	0.1	0.025	NaN	NaN	NaN
+6UTD	6UTD		8DCQ	cc	mmseqs30	0.1	0.025	NaN	NaN	NaN
+8DCQ	8DCQ		8DCQ	cc	mmseqs30	0.1	0.025	NaN	NaN	NaN

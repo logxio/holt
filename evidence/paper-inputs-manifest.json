@@ -1,0 +1,1146 @@
+[
+  {
+    "path": "data/prepared/deepfri/ec/test.fasta",
+    "original_sha256": "bb93322295b58a1022bf469a5845bde97eb8a08f553cc84e3c4cd7c91923e859",
+    "original_bytes": 587241,
+    "stored_sha256": "bb93322295b58a1022bf469a5845bde97eb8a08f553cc84e3c4cd7c91923e859",
+    "stored_bytes": 587241,
+    "scope": "complete file"
+  },
+  {
+    "path": "data/prepared/deepfri/ec/test.jsonl",
+    "original_sha256": "88baaa6af446bd45e37f7c238860fe0069544f62a47f716ef8a17fd79d704e71",
+    "original_bytes": 123284,
+    "stored_sha256": "88baaa6af446bd45e37f7c238860fe0069544f62a47f716ef8a17fd79d704e71",
+    "stored_bytes": 123284,
+    "scope": "complete file"
+  },
+  {
+    "path": "data/prepared/deepfri/ec/train.fasta",
+    "original_sha256": "c16c7d743c8e55ccbdf6e0adbf7e615da065f50a0b690858693ab5035d41a128",
+    "original_bytes": 5151742,
+    "stored_sha256": "c16c7d743c8e55ccbdf6e0adbf7e615da065f50a0b690858693ab5035d41a128",
+    "stored_bytes": 5151742,
+    "scope": "complete file"
+  },
+  {
+    "path": "data/prepared/deepfri/ec/valid.fasta",
+    "original_sha256": "4aa74b8c017e822d66f968cb11433963a2ee63d1933689ac8c2165403e1766fc",
+    "original_bytes": 580177,
+    "stored_sha256": "4aa74b8c017e822d66f968cb11433963a2ee63d1933689ac8c2165403e1766fc",
+    "stored_bytes": 580177,
+    "scope": "complete file"
+  },
+  {
+    "path": "data/prepared/deepfri/go/test.fasta",
+    "original_sha256": "3b968c0f417df562d913308caf2391014d2838584948bf40634feada520c03a1",
+    "original_bytes": 1211873,
+    "stored_sha256": "3b968c0f417df562d913308caf2391014d2838584948bf40634feada520c03a1",
+    "stored_bytes": 1211873,
+    "scope": "complete file"
+  },
+  {
+    "path": "data/prepared/ec/test.fasta",
+    "original_sha256": "94a2e478a244f7e6caea83e6fb0346df1a363a0cfa1853f9a861dd4d297a2a0f",
+    "original_bytes": 546174,
+    "stored_sha256": "94a2e478a244f7e6caea83e6fb0346df1a363a0cfa1853f9a861dd4d297a2a0f",
+    "stored_bytes": 546174,
+    "scope": "complete file"
+  },
+  {
+    "path": "data/prepared/ec/train.fasta",
+    "original_sha256": "7d27d6d1442e6c0588bd1cb2d89c3e6ac08d02e2f9c6aa86890d6aa57704e815",
+    "original_bytes": 4820290,
+    "stored_sha256": "7d27d6d1442e6c0588bd1cb2d89c3e6ac08d02e2f9c6aa86890d6aa57704e815",
+    "stored_bytes": 4820290,
+    "scope": "complete file"
+  },
+  {
+    "path": "data/prepared/ec/valid.fasta",
+    "original_sha256": "8f78cff3e49e4e59dd94d3ac5908ea0c105453131b794ce119af739bc1ce44f5",
+    "original_bytes": 539219,
+    "stored_sha256": "8f78cff3e49e4e59dd94d3ac5908ea0c105453131b794ce119af739bc1ce44f5",
+    "stored_bytes": 539219,
+    "scope": "complete file"
+  },
+  {
+    "path": "holt/certified_sets/deepfri/bp-mmseqs30-a010/chains.tsv",
+    "original_sha256": "4091439767457dcc4b0224dceaf6b4c77549f2c5dbd3cc8c85d87e88e5b49e7c",
+    "original_bytes": 7309,
+    "stored_sha256": "4091439767457dcc4b0224dceaf6b4c77549f2c5dbd3cc8c85d87e88e5b49e7c",
+    "stored_bytes": 7309,
+    "scope": "complete file"
+  },
+  {
+    "path": "holt/certified_sets/deepfri/bp-pdb-a010/chains.tsv",
+    "original_sha256": "956888d42f2005704d20891e8da7edafc707424bf3dbb217f81747212600a996",
+    "original_bytes": 3945,
+    "stored_sha256": "956888d42f2005704d20891e8da7edafc707424bf3dbb217f81747212600a996",
+    "stored_bytes": 3945,
+    "scope": "complete file"
+  },
+  {
+    "path": "holt/certified_sets/deepfri/cc-mmseqs30-a010/chains.tsv",
+    "original_sha256": "a7094920608be7c208ecdde5ed40e13872fb52e048d1409c600ec02c04a62d97",
+    "original_bytes": 4325,
+    "stored_sha256": "a7094920608be7c208ecdde5ed40e13872fb52e048d1409c600ec02c04a62d97",
+    "stored_bytes": 4325,
+    "scope": "complete file"
+  },
+  {
+    "path": "holt/certified_sets/deepfri/cc-pdb-a010/chains.tsv",
+    "original_sha256": "3236eae6985a65f56ca796d55b0df645c7432727ba82e164c0d910fb1bc70124",
+    "original_bytes": 103,
+    "stored_sha256": "3236eae6985a65f56ca796d55b0df645c7432727ba82e164c0d910fb1bc70124",
+    "stored_bytes": 103,
+    "scope": "complete file"
+  },
+  {
+    "path": "holt/certified_sets/deepfri/ec-mmseqs30-a010/chains.tsv",
+    "original_sha256": "cb34fa25492f89ee4bf6894b3486af0ae48e7a0e5319348a74d177830c58796b",
+    "original_bytes": 2531,
+    "stored_sha256": "cb34fa25492f89ee4bf6894b3486af0ae48e7a0e5319348a74d177830c58796b",
+    "stored_bytes": 2531,
+    "scope": "complete file"
+  },
+  {
+    "path": "holt/certified_sets/deepfri/ec-pdb-a010/chains.tsv",
+    "original_sha256": "302648a422cb12840563f22f219be371e5987102c6ee6a2c929c99b0a4785593",
+    "original_bytes": 2601,
+    "stored_sha256": "302648a422cb12840563f22f219be371e5987102c6ee6a2c929c99b0a4785593",
+    "stored_bytes": 2601,
+    "scope": "complete file"
+  },
+  {
+    "path": "holt/certified_sets/deepfri/mf-mmseqs30-a010/chains.tsv",
+    "original_sha256": "3236eae6985a65f56ca796d55b0df645c7432727ba82e164c0d910fb1bc70124",
+    "original_bytes": 103,
+    "stored_sha256": "3236eae6985a65f56ca796d55b0df645c7432727ba82e164c0d910fb1bc70124",
+    "stored_bytes": 103,
+    "scope": "complete file"
+  },
+  {
+    "path": "holt/certified_sets/deepfri/mf-mmseqs30-a015/chains.tsv",
+    "original_sha256": "6cd89cb3b2a9899eefca60ffe36b4456e383bbef9294892d0cd652c3f9c02197",
+    "original_bytes": 9195,
+    "stored_sha256": "6cd89cb3b2a9899eefca60ffe36b4456e383bbef9294892d0cd652c3f9c02197",
+    "stored_bytes": 9195,
+    "scope": "complete file"
+  },
+  {
+    "path": "holt/certified_sets/deepfri/mf-pdb-a010/chains.tsv",
+    "original_sha256": "3236eae6985a65f56ca796d55b0df645c7432727ba82e164c0d910fb1bc70124",
+    "original_bytes": 103,
+    "stored_sha256": "3236eae6985a65f56ca796d55b0df645c7432727ba82e164c0d910fb1bc70124",
+    "stored_bytes": 103,
+    "scope": "complete file"
+  },
+  {
+    "path": "holt/certified_sets/deepfri/mf-pdb-a015/chains.tsv",
+    "original_sha256": "3a15d42ad2ae34ccdb9b8bde3813055ba3939a3400a94939a71781da49eee11c",
+    "original_bytes": 7840,
+    "stored_sha256": "3a15d42ad2ae34ccdb9b8bde3813055ba3939a3400a94939a71781da49eee11c",
+    "stored_bytes": 7840,
+    "scope": "complete file"
+  },
+  {
+    "path": "holt/certified_sets/index.tsv",
+    "original_sha256": "904e71c0a63cab195a90e2c71ee226b8070876ee1431bc3f14d622167c098041",
+    "original_bytes": 9124,
+    "stored_sha256": "904e71c0a63cab195a90e2c71ee226b8070876ee1431bc3f14d622167c098041",
+    "stored_bytes": 9124,
+    "scope": "complete file"
+  },
+  {
+    "path": "holt/certified_sets/paired-differences.tsv",
+    "original_sha256": "0763eb1f7eb7ab10e4bd066105049adc3ebecdf06cfcd7191339c9338413145c",
+    "original_bytes": 23829,
+    "stored_sha256": "0763eb1f7eb7ab10e4bd066105049adc3ebecdf06cfcd7191339c9338413145c",
+    "stored_bytes": 23829,
+    "scope": "complete file"
+  },
+  {
+    "path": "holt/certified_sets/score-summary.tsv",
+    "original_sha256": "fad373841b88958e1ac95dc9b5a48e88347f96caa6f72e858e8dfcb2a6dba73c",
+    "original_bytes": 19346,
+    "stored_sha256": "fad373841b88958e1ac95dc9b5a48e88347f96caa6f72e858e8dfcb2a6dba73c",
+    "stored_bytes": 19346,
+    "scope": "complete file"
+  },
+  {
+    "path": "holt/certified_sets/temporal/bp-mmseqs30-a010/chains.tsv",
+    "original_sha256": "a87662a3c353774037115e0e6c7e640a0a7da8a7a146bb0811fc9200b3ca2f41",
+    "original_bytes": 155337,
+    "stored_sha256": "a87662a3c353774037115e0e6c7e640a0a7da8a7a146bb0811fc9200b3ca2f41",
+    "stored_bytes": 155337,
+    "scope": "complete file"
+  },
+  {
+    "path": "holt/certified_sets/temporal/bp-pdb-a010/chains.tsv",
+    "original_sha256": "e9dd63e8f8d8a9210531a8a32e6c9a3304cc6678263bd9575d511c13f3e3443a",
+    "original_bytes": 93404,
+    "stored_sha256": "e9dd63e8f8d8a9210531a8a32e6c9a3304cc6678263bd9575d511c13f3e3443a",
+    "stored_bytes": 93404,
+    "scope": "complete file"
+  },
+  {
+    "path": "holt/certified_sets/temporal/cc-mmseqs30-a010/chains.tsv",
+    "original_sha256": "7f2755551f40d0d24880e143228bbd31a7a6c519d311ad8cccecc97f0ac3fad6",
+    "original_bytes": 214254,
+    "stored_sha256": "7f2755551f40d0d24880e143228bbd31a7a6c519d311ad8cccecc97f0ac3fad6",
+    "stored_bytes": 214254,
+    "scope": "complete file"
+  },
+  {
+    "path": "holt/certified_sets/temporal/cc-pdb-a010/chains.tsv",
+    "original_sha256": "3236eae6985a65f56ca796d55b0df645c7432727ba82e164c0d910fb1bc70124",
+    "original_bytes": 103,
+    "stored_sha256": "3236eae6985a65f56ca796d55b0df645c7432727ba82e164c0d910fb1bc70124",
+    "stored_bytes": 103,
+    "scope": "complete file"
+  },
+  {
+    "path": "holt/certified_sets/temporal/mf-mmseqs30-a010/chains.tsv",
+    "original_sha256": "3236eae6985a65f56ca796d55b0df645c7432727ba82e164c0d910fb1bc70124",
+    "original_bytes": 103,
+    "stored_sha256": "3236eae6985a65f56ca796d55b0df645c7432727ba82e164c0d910fb1bc70124",
+    "stored_bytes": 103,
+    "scope": "complete file"
+  },
+  {
+    "path": "holt/certified_sets/temporal/mf-mmseqs30-a015/chains.tsv",
+    "original_sha256": "eb3aafc2e421d0243c4778eb8837a476e3ff79973e7bab239fe67403f58ae14d",
+    "original_bytes": 170996,
+    "stored_sha256": "eb3aafc2e421d0243c4778eb8837a476e3ff79973e7bab239fe67403f58ae14d",
+    "stored_bytes": 170996,
+    "scope": "complete file"
+  },
+  {
+    "path": "holt/certified_sets/temporal/mf-pdb-a010/chains.tsv",
+    "original_sha256": "3236eae6985a65f56ca796d55b0df645c7432727ba82e164c0d910fb1bc70124",
+    "original_bytes": 103,
+    "stored_sha256": "3236eae6985a65f56ca796d55b0df645c7432727ba82e164c0d910fb1bc70124",
+    "stored_bytes": 103,
+    "scope": "complete file"
+  },
+  {
+    "path": "holt/certified_sets/temporal/mf-pdb-a015/chains.tsv",
+    "original_sha256": "966dfbda2778507a50986aa8a7d07e71e3a0c2a0b2153b45c75474c7b25811b7",
+    "original_bytes": 136233,
+    "stored_sha256": "966dfbda2778507a50986aa8a7d07e71e3a0c2a0b2153b45c75474c7b25811b7",
+    "stored_bytes": 136233,
+    "scope": "complete file"
+  },
+  {
+    "path": "paper/recomb2027/abstract.tex",
+    "original_sha256": "79d81a99506fb853d894a0ce37d316ce11024a07a22d4e2ae59032001e305b79",
+    "original_bytes": 1807,
+    "stored_sha256": "79d81a99506fb853d894a0ce37d316ce11024a07a22d4e2ae59032001e305b79",
+    "stored_bytes": 1807,
+    "scope": "complete file"
+  },
+  {
+    "path": "paper/recomb2027/figures/fig_calibration.py",
+    "original_sha256": "0ddf75c09a68fdf1abb78dcecfc97471867b10881f6a9086b6f5fcf408a0e17f",
+    "original_bytes": 17371,
+    "stored_sha256": "0ddf75c09a68fdf1abb78dcecfc97471867b10881f6a9086b6f5fcf408a0e17f",
+    "stored_bytes": 17371,
+    "scope": "complete file"
+  },
+  {
+    "path": "paper/recomb2027/figures/style.py",
+    "original_sha256": "2b3c9790c372ee7ae6b9d205d6dd7782b1a8c7230d895431c14f8f2b844c6255",
+    "original_bytes": 28890,
+    "stored_sha256": "2b3c9790c372ee7ae6b9d205d6dd7782b1a8c7230d895431c14f8f2b844c6255",
+    "stored_bytes": 28890,
+    "scope": "complete file"
+  },
+  {
+    "path": "paper/recomb2027/generated/tab_ablation.tex",
+    "original_sha256": "2b777a45e767e2dad10a701042c47f59ccf7ad7b8b7529784596307b9f1b6748",
+    "original_bytes": 801,
+    "stored_sha256": "2b777a45e767e2dad10a701042c47f59ccf7ad7b8b7529784596307b9f1b6748",
+    "stored_bytes": 801,
+    "scope": "complete file"
+  },
+  {
+    "path": "paper/recomb2027/generated/tab_audit.tex",
+    "original_sha256": "1a9d5ae827f061d3f35dcc6904e85e280ccfeff998fd7789ceb7ef56b2ea4c26",
+    "original_bytes": 1405,
+    "stored_sha256": "1a9d5ae827f061d3f35dcc6904e85e280ccfeff998fd7789ceb7ef56b2ea4c26",
+    "stored_bytes": 1405,
+    "scope": "complete file"
+  },
+  {
+    "path": "paper/recomb2027/generated/tab_aupr.tex",
+    "original_sha256": "12333c74ce700ff93053b9e856fffb8c24950d65ab8db0352c4799225cb428b4",
+    "original_bytes": 2120,
+    "stored_sha256": "12333c74ce700ff93053b9e856fffb8c24950d65ab8db0352c4799225cb428b4",
+    "stored_bytes": 2120,
+    "scope": "complete file"
+  },
+  {
+    "path": "paper/recomb2027/generated/tab_certified.tex",
+    "original_sha256": "69c3aed1d0cef252a1754575df54ab654fa1897eb482081c79c3b30a23b58809",
+    "original_bytes": 6188,
+    "stored_sha256": "69c3aed1d0cef252a1754575df54ab654fa1897eb482081c79c3b30a23b58809",
+    "stored_bytes": 6188,
+    "scope": "complete file"
+  },
+  {
+    "path": "paper/recomb2027/generated/tab_coverage.tex",
+    "original_sha256": "1417eaa7ccf01ce5d39e119b67e5d95c606a5835ce6c37b5e5e9a0bfbed79ad6",
+    "original_bytes": 415,
+    "stored_sha256": "1417eaa7ccf01ce5d39e119b67e5d95c606a5835ce6c37b5e5e9a0bfbed79ad6",
+    "stored_bytes": 415,
+    "scope": "complete file"
+  },
+  {
+    "path": "paper/recomb2027/generated/tab_fixed.tex",
+    "original_sha256": "f223afa4c92ef8ccb909b623ce31bb13d901e5f6b4ebfbe96fc4cb178d1fc30e",
+    "original_bytes": 780,
+    "stored_sha256": "f223afa4c92ef8ccb909b623ce31bb13d901e5f6b4ebfbe96fc4cb178d1fc30e",
+    "stored_bytes": 780,
+    "scope": "complete file"
+  },
+  {
+    "path": "paper/recomb2027/generated/tab_levels.tex",
+    "original_sha256": "cf6ec282d545fdf67a2d1b73a0338510c3da09779ad949ddf37b8ef2af34601f",
+    "original_bytes": 422,
+    "stored_sha256": "cf6ec282d545fdf67a2d1b73a0338510c3da09779ad949ddf37b8ef2af34601f",
+    "stored_bytes": 422,
+    "scope": "complete file"
+  },
+  {
+    "path": "paper/recomb2027/generated/tab_main.tex",
+    "original_sha256": "f685f1e2d4478b916c4e35a65899717b25af03b31fa2de1c5ef1f1e27d4d90b6",
+    "original_bytes": 6515,
+    "stored_sha256": "f685f1e2d4478b916c4e35a65899717b25af03b31fa2de1c5ef1f1e27d4d90b6",
+    "stored_bytes": 6515,
+    "scope": "complete file"
+  },
+  {
+    "path": "paper/recomb2027/generated/tab_profile.tex",
+    "original_sha256": "95a46b8657e58556fe0e5627acabe8cb972ce4dcd0b12b78f9866c5a06193a84",
+    "original_bytes": 608,
+    "stored_sha256": "95a46b8657e58556fe0e5627acabe8cb972ce4dcd0b12b78f9866c5a06193a84",
+    "stored_bytes": 608,
+    "scope": "complete file"
+  },
+  {
+    "path": "paper/recomb2027/generated/tab_settings.tex",
+    "original_sha256": "9203c743cd8959b11e9fd18eaec447f04c7135e51f85627c746377fca9654c1a",
+    "original_bytes": 564,
+    "stored_sha256": "9203c743cd8959b11e9fd18eaec447f04c7135e51f85627c746377fca9654c1a",
+    "stored_bytes": 564,
+    "scope": "complete file"
+  },
+  {
+    "path": "paper/recomb2027/generated/tab_transfer.tex",
+    "original_sha256": "7e104c905150c33c68dd797ef0b8bfb79dee5924853df5a18f46bda9eed580ae",
+    "original_bytes": 513,
+    "stored_sha256": "7e104c905150c33c68dd797ef0b8bfb79dee5924853df5a18f46bda9eed580ae",
+    "stored_bytes": 513,
+    "scope": "complete file"
+  },
+  {
+    "path": "paper/recomb2027/main.tex",
+    "original_sha256": "6b10f258c8d0a18a1e3e75646e3fda2974aba378b5fb6292bcdfd5f424beef95",
+    "original_bytes": 100933,
+    "stored_sha256": "6b10f258c8d0a18a1e3e75646e3fda2974aba378b5fb6292bcdfd5f424beef95",
+    "stored_bytes": 100933,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/audit-deepfri-original-ec-chains.tsv",
+    "original_sha256": "499e1c1e2ee97c4cbe6f8015d98f6255ceeb16d3c297b788e247f7785b8b2a59",
+    "original_bytes": 128361,
+    "stored_sha256": "499e1c1e2ee97c4cbe6f8015d98f6255ceeb16d3c297b788e247f7785b8b2a59",
+    "stored_bytes": 128361,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/audit-deepfri-original-ec.json",
+    "original_sha256": "9167e9d8e2b633cb7cdeefab1b88eb621d35aa4709fe7e7f0b6f8ff7ca97659c",
+    "original_bytes": 5267,
+    "stored_sha256": "9167e9d8e2b633cb7cdeefab1b88eb621d35aa4709fe7e7f0b6f8ff7ca97659c",
+    "stored_bytes": 5267,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/audit-deepfri-original-go-chains.tsv",
+    "original_sha256": "6dc75a4bdea8bf25d94d0d20ed05a01c38c632c51ef8de4e739dc2f8220cd67b",
+    "original_bytes": 224217,
+    "stored_sha256": "6dc75a4bdea8bf25d94d0d20ed05a01c38c632c51ef8de4e739dc2f8220cd67b",
+    "stored_bytes": 224217,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/audit-deepfri-original-go.json",
+    "original_sha256": "d81e9967ac46c6900eb3827fb6b9d6686e221455769a477c922e0f0a674fe543",
+    "original_bytes": 5910,
+    "stored_sha256": "d81e9967ac46c6900eb3827fb6b9d6686e221455769a477c922e0f0a674fe543",
+    "stored_bytes": 5910,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/audit-ps-ec-random.json",
+    "original_sha256": "fefa704433584f56feffbc92dae34b5557d79a75e6169674862602c7159dd0c0",
+    "original_bytes": 2872,
+    "stored_sha256": "fefa704433584f56feffbc92dae34b5557d79a75e6169674862602c7159dd0c0",
+    "stored_bytes": 2872,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/audit-ps-ec-sequence.json",
+    "original_sha256": "6a424c05ddae705f889204a7ffc48a1ca4783de645c17a82a2e9a2b4a4115512",
+    "original_bytes": 2942,
+    "stored_sha256": "6a424c05ddae705f889204a7ffc48a1ca4783de645c17a82a2e9a2b4a4115512",
+    "stored_bytes": 2942,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/audit-ps-ec-structure.json",
+    "original_sha256": "fd12d7a6c274eb3d84c66fcd032ad8795fe762aae4785ba1628d48d5dcf7e351",
+    "original_bytes": 2892,
+    "stored_sha256": "fd12d7a6c274eb3d84c66fcd032ad8795fe762aae4785ba1628d48d5dcf7e351",
+    "stored_bytes": 2892,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/audit-ps-go-random.json",
+    "original_sha256": "22b3ff96bb6c1ae89bc0c5ede3d0413e42d3d79a855153ee1ef3041bbe8f399b",
+    "original_bytes": 3615,
+    "stored_sha256": "22b3ff96bb6c1ae89bc0c5ede3d0413e42d3d79a855153ee1ef3041bbe8f399b",
+    "stored_bytes": 3615,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/audit-ps-go-sequence.json",
+    "original_sha256": "1d8b663ceb2767b35fcbe89504e47a62725083929736bb39ee1c571cba109811",
+    "original_bytes": 3717,
+    "stored_sha256": "1d8b663ceb2767b35fcbe89504e47a62725083929736bb39ee1c571cba109811",
+    "stored_bytes": 3717,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/audit-ps-go-structure.json",
+    "original_sha256": "f159f68596923c1dc5fffc1cd27945bdc38c968158e73c63915408fa0b4d6450",
+    "original_bytes": 3640,
+    "stored_sha256": "f159f68596923c1dc5fffc1cd27945bdc38c968158e73c63915408fa0b4d6450",
+    "stored_bytes": 3640,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/certify-proteinshake-series10.json",
+    "original_sha256": "3b8ff561301511216596c6e255a1154398843a2d9ef6fe419a6eacd86db197ac",
+    "original_bytes": 60956,
+    "stored_sha256": "3b8ff561301511216596c6e255a1154398843a2d9ef6fe419a6eacd86db197ac",
+    "stored_bytes": 60956,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/certify-temporal-orig-go-acceptance.json",
+    "original_sha256": "f35e684fb92d124b281fdf38889164b95145ae05794d66cf642c0f3f314adf3b",
+    "original_bytes": 91330,
+    "stored_sha256": "f35e684fb92d124b281fdf38889164b95145ae05794d66cf642c0f3f314adf3b",
+    "stored_bytes": 91330,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/crossfit-ec-guard-candidate-frozen.json",
+    "original_sha256": "172ea0aae71df8895e240ffd91bcfa747e3c665ec816b3845b52ace282308bec",
+    "original_bytes": 62104,
+    "stored_sha256": "8c224f94f4029420b7ffe25ea23478d4dc1b1253e34d873cabf1f3fc4013eb93",
+    "stored_bytes": 62063,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/crossfit-ec-original-multifamily-summary-0-100.json",
+    "original_sha256": "55596b30fa4418550b07fd962636765f905c303321dda5aca56d3ff01e8847df",
+    "original_bytes": 4921,
+    "stored_sha256": "55596b30fa4418550b07fd962636765f905c303321dda5aca56d3ff01e8847df",
+    "stored_bytes": 4921,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/crossfit-ec-original-transfer-summary-0-100.json",
+    "original_sha256": "a8ff2e10a0d3e00cc8988abc8d5a74a77484ac003a9dfe5ff8c895b923156662",
+    "original_bytes": 9797,
+    "stored_sha256": "a8ff2e10a0d3e00cc8988abc8d5a74a77484ac003a9dfe5ff8c895b923156662",
+    "stored_bytes": 9797,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/crossfit-go-guard-candidate-frozen.json",
+    "original_sha256": "52f288591a1ce0f46eca3231e96f98a8a41511f261affae28392308a122bb037",
+    "original_bytes": 340451,
+    "stored_sha256": "9deb5254160ff6539429a6e318b85457a326148582912c7ee33a5e82e7d56b23",
+    "stored_bytes": 340410,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/crossfit-go-original-multifamily-case-5ZZ8-r.json",
+    "original_sha256": "4ed4cedfb1d00024bfc8c12ef40e1056d0f97f7cab66c683568fdd693062c15c",
+    "original_bytes": 2913,
+    "stored_sha256": "4ed4cedfb1d00024bfc8c12ef40e1056d0f97f7cab66c683568fdd693062c15c",
+    "stored_bytes": 2913,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/crossfit-go-original-multifamily-summary-0-100.json",
+    "original_sha256": "b21e6b0db0e6a0073e447038d83cc1f8455f0e482898c61cb1c9fd86968a3a39",
+    "original_bytes": 15069,
+    "stored_sha256": "b21e6b0db0e6a0073e447038d83cc1f8455f0e482898c61cb1c9fd86968a3a39",
+    "stored_bytes": 15069,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/crossfit-go-original-transfer-summary-0-100.json",
+    "original_sha256": "b7d5b915be3fba9fe9a7a05af4075c6df7af7c0ed8935e84b6f75922e94b953b",
+    "original_bytes": 28152,
+    "stored_sha256": "b7d5b915be3fba9fe9a7a05af4075c6df7af7c0ed8935e84b6f75922e94b953b",
+    "stored_bytes": 28152,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/crossfit-orig-ec-homology-acceptance.json",
+    "original_sha256": "de0c69573ef759ef4482e96ddfb7dd2de6f4b2e71aa98dc1871cd1a320105db6",
+    "original_bytes": 315162,
+    "stored_sha256": "de0c69573ef759ef4482e96ddfb7dd2de6f4b2e71aa98dc1871cd1a320105db6",
+    "stored_bytes": 315162,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/crossfit-orig-ec-homology-full-certification.json",
+    "original_sha256": "d20b1ad8c7c26ccba581b29d61a0f048430cb456332177fb25da89a63b13f30d",
+    "original_bytes": 128919,
+    "stored_sha256": "d20b1ad8c7c26ccba581b29d61a0f048430cb456332177fb25da89a63b13f30d",
+    "stored_bytes": 128919,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/crossfit-orig-go-homology-acceptance.json",
+    "original_sha256": "80e8d91fa22ceb08144fdcda72f708c4a84fde83223577331e14812c396d811e",
+    "original_bytes": 1623201,
+    "stored_sha256": "80e8d91fa22ceb08144fdcda72f708c4a84fde83223577331e14812c396d811e",
+    "stored_bytes": 1623201,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/crossfit-orig-go-homology-full-certification.json",
+    "original_sha256": "6f330bb0355914790bae98dfe8254e54ec2de4e3838c0dd6f42e772d9e98c19e",
+    "original_bytes": 729618,
+    "stored_sha256": "6f330bb0355914790bae98dfe8254e54ec2de4e3838c0dd6f42e772d9e98c19e",
+    "stored_bytes": 729618,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/crossfit-repair-confirmation-gate.json",
+    "original_sha256": "2ead1b7b0ebc5c6b07cb34e41216c8ec805efffee6b445721ff7a349752df2fa",
+    "original_bytes": 11136,
+    "stored_sha256": "2ead1b7b0ebc5c6b07cb34e41216c8ec805efffee6b445721ff7a349752df2fa",
+    "stored_bytes": 11136,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/crossfit-repair-confirmation-protocol.json",
+    "original_sha256": "12e92e454c77af47acacaf8f7ad00fdf316217fabbc09826bc2ad1f84dcf6ae3",
+    "original_bytes": 1494,
+    "stored_sha256": "12e92e454c77af47acacaf8f7ad00fdf316217fabbc09826bc2ad1f84dcf6ae3",
+    "stored_bytes": 1494,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/crossfit-repair-s13-comparison/original-paired.json",
+    "original_sha256": "25babef6a8da8083c26e017de0c99422a5ab58b27366934f2efdec94b69d4e0c",
+    "original_bytes": 151781,
+    "stored_sha256": "25babef6a8da8083c26e017de0c99422a5ab58b27366934f2efdec94b69d4e0c",
+    "stored_bytes": 151781,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/crossfit-repair-s13-deployment-freeze.json",
+    "original_sha256": "9da1566395e4de29846e12e30d80c30387cf0d864a495e512a678ee5c011b1d3",
+    "original_bytes": 2731,
+    "stored_sha256": "9da1566395e4de29846e12e30d80c30387cf0d864a495e512a678ee5c011b1d3",
+    "stored_bytes": 2731,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/crossfit-repair-s13-ec-evaluated-rows.jsonl",
+    "original_sha256": "eec7106265111c0b81c3631eb8f6548882159fcf7e5cc825f3eab5e8a378eded",
+    "original_bytes": 832340,
+    "stored_sha256": "eec7106265111c0b81c3631eb8f6548882159fcf7e5cc825f3eab5e8a378eded",
+    "stored_bytes": 832340,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/crossfit-repair-s13-go-acceptance.json",
+    "original_sha256": "c4554a7dc6a5ef32126ca1f3959505d221b275e780f05d18dacdd5780b4dc264",
+    "original_bytes": 10089,
+    "stored_sha256": "c4554a7dc6a5ef32126ca1f3959505d221b275e780f05d18dacdd5780b4dc264",
+    "stored_bytes": 10089,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/crossfit-repair-s13-go-evaluated-rows.jsonl",
+    "original_sha256": "7a82a4180452707d92fee30e3ee8419709d07a1acb1be1f908786c14604c5581",
+    "original_bytes": 2815038,
+    "stored_sha256": "7a82a4180452707d92fee30e3ee8419709d07a1acb1be1f908786c14604c5581",
+    "stored_bytes": 2815038,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/crossfit-repair-s15/acceptance-chains.tsv",
+    "original_sha256": "75056a38127de9dd89457c56b45af239ac979d6cdb6cb74c8ffe7e61d1a6547c",
+    "original_bytes": 3160718,
+    "stored_sha256": "0de2bd02bd9da93068d1bcdbc6dc23c11908a2629e14b8633482c84e8ab9547e",
+    "stored_bytes": 3127732,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/crossfit-repair-s15/acceptance.json",
+    "original_sha256": "cef4eee77c537f0898f3bdae0261cd0fc174cddf6f1c995f5ec3d326a332cb0c",
+    "original_bytes": 7303585,
+    "stored_sha256": "5c6db730473e897556f75939dade1691f2f5c0704109923ae02f6f1b55149120",
+    "stored_bytes": 7303544,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/crossfit-repair-s15/ec-paired.json",
+    "original_sha256": "0893fb35ea16a7e98f00f528606d0989d136bc68761e703047a1dd7456d7bf9e",
+    "original_bytes": 34794,
+    "stored_sha256": "b943d754aee2869040f407740b7be2ab30ea941bb06e3f00b1ab574611b22b06",
+    "stored_bytes": 34753,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/crossfit-repair-s15/freeze.json",
+    "original_sha256": "620ad3d51df9e32b1de2ff8575c4f55ad33f2e24b5aef1078ea2324bb956fe39",
+    "original_bytes": 156402,
+    "stored_sha256": "5f02f3d1ece204ba1f223799022f17ed6c0f1c867fef954817b0d719819165d2",
+    "stored_bytes": 156361,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/crossfit-repair-s15/go-paired.json",
+    "original_sha256": "e8d0194f8bb53603eed2428105b3e12240f2a6bcf1acb48e708f2795dba7f3f5",
+    "original_bytes": 165432,
+    "stored_sha256": "6156d242b7b30071f83b1844a78d1f59b9dea2d85932782b6dbee8f85e594269",
+    "stored_bytes": 165391,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/crossfit-repair-s15/mf15-deployments-summary.json",
+    "original_sha256": "c0c549fe107bac87975ad79d134bbecb53e8c3a881f9e89d46a75a1f3076dec9",
+    "original_bytes": 1545,
+    "stored_sha256": "c0c549fe107bac87975ad79d134bbecb53e8c3a881f9e89d46a75a1f3076dec9",
+    "stored_bytes": 1545,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/crossfit-repair-s15/per-deployment.json",
+    "original_sha256": "e8dbf8c3549a8ef77f634f6d28a5070618c7e67939a97222253e1cd0d3f8f84a",
+    "original_bytes": 1027212,
+    "stored_sha256": "e89f7934ecc172f6ea84b50579a5ae98a6c8b96da9753e4f2164bdc9e991a7f6",
+    "stored_bytes": 1027171,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/crossfit-repair-s15/temporal-go-paired-final.json",
+    "original_sha256": "2d656310ddf1a656c4cd5d4a268fe6ab2da2a9fb573c800b793def942f103165",
+    "original_bytes": 1359624,
+    "stored_sha256": "7427f35997c610c18d0afa65ca79986d050a3b2c4c13904a89563cc568f11221",
+    "stored_bytes": 1359583,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/crossfit-repair-s15/year-deployments-complete.json",
+    "original_sha256": "b48f194e5b45adbf4f6d33870350ed91c931858e0ad465ef1181c2fc762a65bc",
+    "original_bytes": 418398,
+    "stored_sha256": "5e2938f52e3a3f228a77aa06d3cbe581070ce9943ba1cbedbc123cdc4f02bc58",
+    "stored_bytes": 418357,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/crossfit-repair-s15/year-one-family.json",
+    "original_sha256": "0a2f01e60ac382fa3833981ef1c88f84b6b8458d51a06e79284bf11a2944df35",
+    "original_bytes": 5590,
+    "stored_sha256": "a6a54d2b4a96cb1f7ced6d0d2c471346ace6a661baa65790cb6b062c40867905",
+    "stored_bytes": 5549,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/ec-letters-trace.json",
+    "original_sha256": "77e5cc517015da24bf746d5bf161da75f6e264b897d36fbbe189d8405504a611",
+    "original_bytes": 14747,
+    "stored_sha256": "77e5cc517015da24bf746d5bf161da75f6e264b897d36fbbe189d8405504a611",
+    "stored_bytes": 14747,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/ens-deepfri-ann-ec-metrics.json",
+    "original_sha256": "1e2b1bbd8b31dc50786540a6ad3d1d9b5ffe88fbdbbcb654c8f20ab68143aa52",
+    "original_bytes": 4710,
+    "stored_sha256": "1e2b1bbd8b31dc50786540a6ad3d1d9b5ffe88fbdbbcb654c8f20ab68143aa52",
+    "stored_bytes": 4710,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/ens-deepfri-ann-go-metrics.json",
+    "original_sha256": "19e6507a32bcd7723635217a4f811f5ea89de7085b9738e263ae7cbf18aa5745",
+    "original_bytes": 14138,
+    "stored_sha256": "19e6507a32bcd7723635217a4f811f5ea89de7085b9738e263ae7cbf18aa5745",
+    "stored_bytes": 14138,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/equal-length-ec-scores.json",
+    "original_sha256": "86b0dad09614f7c84517f389456bb933f75093e4a8b931272cced61b0ee6cb16",
+    "original_bytes": 381,
+    "stored_sha256": "86b0dad09614f7c84517f389456bb933f75093e4a8b931272cced61b0ee6cb16",
+    "stored_bytes": 381,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/esm2-650m-deepfri-mid-z-ann-ec-metrics.json",
+    "original_sha256": "bec8031ce4b6d0090cd574fdbcbdff72b364a26373a0c2ed17fbac8eeab451ef",
+    "original_bytes": 330,
+    "stored_sha256": "bec8031ce4b6d0090cd574fdbcbdff72b364a26373a0c2ed17fbac8eeab451ef",
+    "stored_bytes": 330,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/esm2-650m-deepfri-mid-z-ann-go-metrics.json",
+    "original_sha256": "b8754a4816494e0eb4c67686872011b021307ee482c961b21c0e47a0043e2478",
+    "original_bytes": 989,
+    "stored_sha256": "b8754a4816494e0eb4c67686872011b021307ee482c961b21c0e47a0043e2478",
+    "stored_bytes": 989,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/esm2-650m-deepfri-z-ann-go-metrics.json",
+    "original_sha256": "2a7e9ef549d3e890fe0893405135dfe0df49540dfad5c36d40dfcb2f1e149349",
+    "original_bytes": 979,
+    "stored_sha256": "2a7e9ef549d3e890fe0893405135dfe0df49540dfad5c36d40dfcb2f1e149349",
+    "stored_bytes": 979,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/esmc-600m-deepfri-mid-z-ann-ec-metrics.json",
+    "original_sha256": "c471d04892765946a4b2bdfb36fc243ba71dcaa387385025821fd93d81f8eb42",
+    "original_bytes": 331,
+    "stored_sha256": "c471d04892765946a4b2bdfb36fc243ba71dcaa387385025821fd93d81f8eb42",
+    "stored_bytes": 331,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/esmc-600m-deepfri-mid-z-ann-go-metrics.json",
+    "original_sha256": "1edae018841fca56edab04a0e84ce44e02352aeb122b3c57ff4e3c0c763f1bdc",
+    "original_bytes": 989,
+    "stored_sha256": "1edae018841fca56edab04a0e84ce44e02352aeb122b3c57ff4e3c0c763f1bdc",
+    "stored_bytes": 989,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/event-sensitivity-series1.json",
+    "original_sha256": "53ccf0942f268ae8e361748af7638b38b9f1f36f1a12a48af887dd20657b0fd1",
+    "original_bytes": 19776,
+    "stored_sha256": "53ccf0942f268ae8e361748af7638b38b9f1f36f1a12a48af887dd20657b0fd1",
+    "stored_bytes": 19776,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/fig-calibration/review-calibration-ec-bits.tsv",
+    "original_sha256": "5c5bd62ef404e35d39b9655075dc364b64347920e6520f5a75ac99185e709cb0",
+    "original_bytes": 50610,
+    "stored_sha256": "704e19c8bed5e7e6e0792c0906fa4a84c7c04472dc6fdc158755b24296954ea0",
+    "stored_bytes": 48880,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/fig-calibration/review-calibration-ec-identity.tsv",
+    "original_sha256": "3190874adaa92dd7595dab5a13ff32e4e64df28540ce9c86f1c975a16cb06a2e",
+    "original_bytes": 48292,
+    "stored_sha256": "ad9df8154acc4cd9d873e4e4346c3bc95651fdc7c7779e3fa9a4551957021212",
+    "stored_bytes": 46562,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/fig-calibration/review-calibration-go-bits.tsv",
+    "original_sha256": "ba749a4bd7af6016595356284288a9919f2fdde45d501a4c75a68c62101f0e29",
+    "original_bytes": 210356,
+    "stored_sha256": "b0ecedb93618aa6638889793535a27ba0d81d85c23aa9eebbefb501f7c7e5999",
+    "stored_bytes": 203682,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/fig-calibration/review-calibration-go-identity.tsv",
+    "original_sha256": "99f52cc1bfd7aab783669cdc5cbe5ed420ae461ea77728b29f8811f2af846775",
+    "original_bytes": 197885,
+    "stored_sha256": "c51772afec3fc67ef82c79084ddbbadf4376810ce6edebdac3753b5fdb60c6a2",
+    "stored_bytes": 191211,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/fig-identity-coverage-ec-chains.tsv",
+    "original_sha256": "ee9cf3f4fa7e1b91b0fde4ed79cf35ce756743173e89f55ba5532a9033fabea6",
+    "original_bytes": 69956,
+    "stored_sha256": "ee9cf3f4fa7e1b91b0fde4ed79cf35ce756743173e89f55ba5532a9033fabea6",
+    "stored_bytes": 69956,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/fig-identity-coverage-go-chains.tsv",
+    "original_sha256": "d4bb67da94cf2f692b6eeae588b9f1eb90d4ed1855ba71c644fa9808c2afc27f",
+    "original_bytes": 185597,
+    "stored_sha256": "d4bb67da94cf2f692b6eeae588b9f1eb90d4ed1855ba71c644fa9808c2afc27f",
+    "stored_bytes": 185597,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/fig-identity-coverage.json",
+    "original_sha256": "102c0eec3759455d14212371409cdf4f77e10cedd5166947df976c44f3b5f009",
+    "original_bytes": 171958,
+    "stored_sha256": "f259dfe46f1c1c8243242812810d8073e84ad161ded1029e8b37ae3e36f8a5a6",
+    "stored_bytes": 171712,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/fig-scores.json",
+    "original_sha256": "a4b6990ad59a44a784de34261c7f42f3e2ec7cf8691b2a1cef5e98997c2aaf8d",
+    "original_bytes": 199069,
+    "stored_sha256": "a4b6990ad59a44a784de34261c7f42f3e2ec7cf8691b2a1cef5e98997c2aaf8d",
+    "stored_bytes": 199069,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/fig-specimen-5YTU-A.json",
+    "original_sha256": "e918d0d5dee6c68654fd0aa8639470c786b6ba71ef2fca583f6f10bde689a2ee",
+    "original_bytes": 71440,
+    "stored_sha256": "bff3689b11295649192ec3a213ea40d939a95f134b9f9eacaa14a354378e3002",
+    "stored_bytes": 71317,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/fig-waterfall-ec-chains.tsv",
+    "original_sha256": "66c2b7ea8af91812f10ae3c0e8f57f4d4d6274277c532e35b6e61df0485b4386",
+    "original_bytes": 131851,
+    "stored_sha256": "66c2b7ea8af91812f10ae3c0e8f57f4d4d6274277c532e35b6e61df0485b4386",
+    "stored_bytes": 131851,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/fig-waterfall-summary.json",
+    "original_sha256": "25441a9c44e92c91680711ce386ee91b16032843803a315a76a44ce7196bcdc9",
+    "original_bytes": 12874,
+    "stored_sha256": "25441a9c44e92c91680711ce386ee91b16032843803a315a76a44ce7196bcdc9",
+    "stored_bytes": 12874,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/folddisco-default-deepfri-ann-ec-ec-predictions.jsonl",
+    "original_sha256": "fba06446d18ee3820ca689e8c4e43b14e7ae6fe2e30d7b2a6cae77c6f13b4a79",
+    "original_bytes": 422366,
+    "stored_sha256": "968c35dd0e6ffff36af58a21176a314e76cb12e88f98f1cd10667c95435a804f",
+    "stored_bytes": 481,
+    "scope": "two illustrated chains; aggregate scores use the complete scored cohort"
+  },
+  {
+    "path": "results/raw/folddisco-default-deepfri-ann-ec-metrics.json",
+    "original_sha256": "2ca55540bddd23f21077237f73b7689e669f44a1511a065c6716b5919a0fdb22",
+    "original_bytes": 334,
+    "stored_sha256": "2ca55540bddd23f21077237f73b7689e669f44a1511a065c6716b5919a0fdb22",
+    "stored_bytes": 334,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/folddisco-default-deepfri-ann-go-metrics.json",
+    "original_sha256": "123924b1544f88431581caf75fa1423981cde00137b872bfe0b66803957269c2",
+    "original_bytes": 1000,
+    "stored_sha256": "123924b1544f88431581caf75fa1423981cde00137b872bfe0b66803957269c2",
+    "stored_bytes": 1000,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/foldseek-deepfri-ann-ec-ec-predictions.jsonl",
+    "original_sha256": "44146784b4f5311fc4b36075e0943aa460e1f3011e6e0a751cc587c2cb01e171",
+    "original_bytes": 511093,
+    "stored_sha256": "f6bbe51d41d01186434e529f5e2ba2868939f89add2097a24858d020c7ee556f",
+    "stored_bytes": 291,
+    "scope": "two illustrated chains; aggregate scores use the complete scored cohort"
+  },
+  {
+    "path": "results/raw/foldseek-deepfri-ann-ec-metrics.json",
+    "original_sha256": "475d3275694cef633ed72683ac57e4868d5e685f4c735a13bacd6b33c6e4eeb7",
+    "original_bytes": 325,
+    "stored_sha256": "475d3275694cef633ed72683ac57e4868d5e685f4c735a13bacd6b33c6e4eeb7",
+    "stored_bytes": 325,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/foldseek-deepfri-ann-go-metrics.json",
+    "original_sha256": "2795c10f5ea3e25ecfd6057d19062a8a52a49c40109021a4944f041d01c58a31",
+    "original_bytes": 972,
+    "stored_sha256": "2795c10f5ea3e25ecfd6057d19062a8a52a49c40109021a4944f041d01c58a31",
+    "stored_bytes": 972,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/guarded-series9/event-go.json",
+    "original_sha256": "186447e12b4c949de2928884ac07a57c4f609b7e8a18386b2ea80f42ccd9ee18",
+    "original_bytes": 16615,
+    "stored_sha256": "7492e82f62d0af8c783f10456c92bbbf88dc7144d2d2f7ea9380b27464b07c91",
+    "stored_bytes": 16615,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/guarded-series9/fixed-original.json",
+    "original_sha256": "d4ebd804f4c1219770c6b961b0272748d2bad03f29d4f4bced5afe3402c9631c",
+    "original_bytes": 19798,
+    "stored_sha256": "d4ebd804f4c1219770c6b961b0272748d2bad03f29d4f4bced5afe3402c9631c",
+    "stored_bytes": 19798,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/guarded-series9/profile-ec.json",
+    "original_sha256": "8396f5bd72db2a4e3f950b88121cacf9fa8a8b9b270413357fc85092f33cacde",
+    "original_bytes": 3851,
+    "stored_sha256": "8396f5bd72db2a4e3f950b88121cacf9fa8a8b9b270413357fc85092f33cacde",
+    "stored_bytes": 3851,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/guarded-series9/profile-go.json",
+    "original_sha256": "e652ed46ccc834747a5131f47a489215f52b6854fd68c2d91eb2836f794acde2",
+    "original_bytes": 11034,
+    "stored_sha256": "e652ed46ccc834747a5131f47a489215f52b6854fd68c2d91eb2836f794acde2",
+    "stored_bytes": 11034,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/guarded-series9/proteinshake-ec-random.json",
+    "original_sha256": "efe082e829b228dce6cdeba83483ba97967efd1af03b7fce4e3f88977e4d73d2",
+    "original_bytes": 1678,
+    "stored_sha256": "efe082e829b228dce6cdeba83483ba97967efd1af03b7fce4e3f88977e4d73d2",
+    "stored_bytes": 1678,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/guarded-series9/proteinshake-ec-sequence.json",
+    "original_sha256": "0a9d231a274424ea1b0548b2fea01d7df5d41b99653c7852f193d4c4f7ae39ec",
+    "original_bytes": 2727,
+    "stored_sha256": "0a9d231a274424ea1b0548b2fea01d7df5d41b99653c7852f193d4c4f7ae39ec",
+    "stored_bytes": 2727,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/guarded-series9/proteinshake-ec-structure.json",
+    "original_sha256": "8bfe9d673a83256cf0c76f8338eddda5bbbf6ba000bb88bd1086705be60032a1",
+    "original_bytes": 8779,
+    "stored_sha256": "8bfe9d673a83256cf0c76f8338eddda5bbbf6ba000bb88bd1086705be60032a1",
+    "stored_bytes": 8779,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/guarded-series9/proteinshake-go-random.json",
+    "original_sha256": "82e998e77b4e1df544c913d204a3214cc918f7e3508f281196c810d39b792e99",
+    "original_bytes": 4482,
+    "stored_sha256": "82e998e77b4e1df544c913d204a3214cc918f7e3508f281196c810d39b792e99",
+    "stored_bytes": 4482,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/guarded-series9/proteinshake-go-sequence.json",
+    "original_sha256": "18c613a82b1a543754fcbd760f26ef05934b436eef72c5321d9b9885f6405bf3",
+    "original_bytes": 5847,
+    "stored_sha256": "18c613a82b1a543754fcbd760f26ef05934b436eef72c5321d9b9885f6405bf3",
+    "stored_bytes": 5847,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/guarded-series9/proteinshake-go-structure.json",
+    "original_sha256": "30ec3b261299ac065044897be42ece52f56645f90ecfeca6ea18116f8aef8746",
+    "original_bytes": 8318,
+    "stored_sha256": "30ec3b261299ac065044897be42ece52f56645f90ecfeca6ea18116f8aef8746",
+    "stored_bytes": 8318,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/hard-set-metrics.json",
+    "original_sha256": "0843afef928fae92fc41be46b9c6040ab7fcb6b0fdc273f3cc44eb01dd2b6a31",
+    "original_bytes": 75913,
+    "stored_sha256": "0843afef928fae92fc41be46b9c6040ab7fcb6b0fdc273f3cc44eb01dd2b6a31",
+    "stored_bytes": 75913,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/mmseqs-deepfri-ann-ec-ec-predictions.jsonl",
+    "original_sha256": "c558eb07ed096c727db65fa4ce227289375349fffad630bf83a5e93f29991e17",
+    "original_bytes": 425736,
+    "stored_sha256": "9b6b9136550bd691d51a9bd75a0a06da76e289bbd30cf2905b649057f94266a4",
+    "stored_bytes": 288,
+    "scope": "two illustrated chains; aggregate scores use the complete scored cohort"
+  },
+  {
+    "path": "results/raw/mmseqs-deepfri-ann-ec-metrics.json",
+    "original_sha256": "5ee5a40b2bdde8ac45422e4b3195c5672075e2f767d8725fff5ccf54ec8f457a",
+    "original_bytes": 323,
+    "stored_sha256": "5ee5a40b2bdde8ac45422e4b3195c5672075e2f767d8725fff5ccf54ec8f457a",
+    "stored_bytes": 323,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/mmseqs-deepfri-ann-go-metrics.json",
+    "original_sha256": "82f84b1375a744fec107d429b994be10c731d061130afa1f2064e8e52993aa74",
+    "original_bytes": 970,
+    "stored_sha256": "82f84b1375a744fec107d429b994be10c731d061130afa1f2064e8e52993aa74",
+    "stored_bytes": 970,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/paper-intervals.json",
+    "original_sha256": "cd27be213ee8f5f89a355733cbdf9ba968a3c9de8ace13bf42e734f7ee027133",
+    "original_bytes": 138979,
+    "stored_sha256": "cd27be213ee8f5f89a355733cbdf9ba968a3c9de8ace13bf42e734f7ee027133",
+    "stored_bytes": 138979,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/profile-factors-series11-ec-pdb-scored.json",
+    "original_sha256": "b201cbbd784cefdadc8b620d6c7a444bb3695817806f528d1b2254e4e3c4ce62",
+    "original_bytes": 1682,
+    "stored_sha256": "b201cbbd784cefdadc8b620d6c7a444bb3695817806f528d1b2254e4e3c4ce62",
+    "stored_bytes": 1682,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/profile-factors-series11-ec-scored.json",
+    "original_sha256": "21feece016dedbb8cdd83f584093e9a6e76156bc998d49cd86e3fec156325487",
+    "original_bytes": 1661,
+    "stored_sha256": "21feece016dedbb8cdd83f584093e9a6e76156bc998d49cd86e3fec156325487",
+    "stored_bytes": 1661,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/profile-factors-series11-orig-go-fresh-scored.json",
+    "original_sha256": "593af9cf6cec9b1f69a0e4c3d4001bca67395ea3afd48f74226b876e1bd81356",
+    "original_bytes": 3755,
+    "stored_sha256": "593af9cf6cec9b1f69a0e4c3d4001bca67395ea3afd48f74226b876e1bd81356",
+    "stored_bytes": 3755,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/profile-factors-series11-orig-go-pdb-scored.json",
+    "original_sha256": "bd1ae08f0e3c65e970bd7b86977bc332fa71ad295894a5b9a0dab2df06f58f5b",
+    "original_bytes": 3339,
+    "stored_sha256": "bd1ae08f0e3c65e970bd7b86977bc332fa71ad295894a5b9a0dab2df06f58f5b",
+    "stored_bytes": 3339,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/published-deepfri-gcn-original-ec-ec-predictions.jsonl",
+    "original_sha256": "4fa36a97e9549f9afa24ad27610a925e930a1f2f7e02108591d15ead90f8e5a6",
+    "original_bytes": 18067033,
+    "stored_sha256": "ad3cb72152bd40c7862db0ebccdf3a2a292b78fc3fab01655109a6e4558f1eea",
+    "stored_bytes": 14740,
+    "scope": "two illustrated chains; aggregate scores use the complete scored cohort"
+  },
+  {
+    "path": "results/raw/published-esm-s-original-ec-ec-predictions.jsonl",
+    "original_sha256": "28f56280f8a940ac64021b2e959110660f89ee22378ac5dc50a50820ba66fc1d",
+    "original_bytes": 261974,
+    "stored_sha256": "3421fe98243414ccd04efa741c9e9c3d587d4592d94cb73810bea646b27f14b2",
+    "stored_bytes": 266,
+    "scope": "two illustrated chains; aggregate scores use the complete scored cohort"
+  },
+  {
+    "path": "results/raw/published-esm-s-original-metrics.json",
+    "original_sha256": "3d50ada9e213006814799113c9dc741a8335cb0f9abaca78a079c6c8d25aad08",
+    "original_bytes": 960,
+    "stored_sha256": "3d50ada9e213006814799113c9dc741a8335cb0f9abaca78a079c6c8d25aad08",
+    "stored_bytes": 960,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/review-ablation-s10r2-original.json",
+    "original_sha256": "58e85d41f905a66006b537f04f980c691b55957e87903707ec132f30efc97400",
+    "original_bytes": 230609,
+    "stored_sha256": "4d5c06792dd21a267da31c9305a436726e12338ccb11f3193f0847ae2c020eee",
+    "stored_bytes": 230609,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/review-ablation-s10r2-robustness.json",
+    "original_sha256": "bf9aa3434ae1fa06bebc5eaac9777933f1fc3d15693fd190dfb1084b66f26121",
+    "original_bytes": 48343,
+    "stored_sha256": "2c3a622ef731356ab9ccfdecd611e95912091aeee132781fb44d2ec973dc3e85",
+    "stored_bytes": 48343,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/review-ablation-s10r2-summary.json",
+    "original_sha256": "6e8b3b9c27c5bd4c288956ef1733dfede75629a7317e1c84ed49c137063e74e6",
+    "original_bytes": 58352,
+    "stored_sha256": "2df692ad9e51b003c7e2f50b82d252a9b10f71ee2513f2a411aee42192a5f658",
+    "stored_bytes": 58352,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/review-temporal-stage.json",
+    "original_sha256": "4c3e7d2ef88004deebfc883675077a3602c1006046a74861432fa164e4c0a539",
+    "original_bytes": 352,
+    "stored_sha256": "4c3e7d2ef88004deebfc883675077a3602c1006046a74861432fa164e4c0a539",
+    "stored_bytes": 352,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/review-timing-end-to-end.json",
+    "original_sha256": "34c7f5f6aafe092e308d53b0c80f42584ec785283847fb79635dba3286b0af57",
+    "original_bytes": 12772,
+    "stored_sha256": "34c7f5f6aafe092e308d53b0c80f42584ec785283847fb79635dba3286b0af57",
+    "stored_bytes": 12772,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/single-feature-s10r2-main.json",
+    "original_sha256": "5bf310d1480839eb47ade13580629e9bd86c888ff84a8b8f665a7d8fdb6ab0c4",
+    "original_bytes": 111811,
+    "stored_sha256": "97d05beab2986352c51ed7dc45d91efa07e0938e148423c36fe1a01ef0697898",
+    "stored_bytes": 111811,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/stack4-deepfri-ann-ec-metrics.json",
+    "original_sha256": "490a4534d7551bc3474d8cfc546f2adf28ae50d46bb14c4e9b748bf4476b2484",
+    "original_bytes": 746,
+    "stored_sha256": "490a4534d7551bc3474d8cfc546f2adf28ae50d46bb14c4e9b748bf4476b2484",
+    "stored_bytes": 746,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/stack4-deepfri-ann-go-metrics.json",
+    "original_sha256": "42af7a9892bcf2d49b38499d5c96f044ed4be2b3229832a36b5058883ffb4a82",
+    "original_bytes": 2322,
+    "stored_sha256": "42af7a9892bcf2d49b38499d5c96f044ed4be2b3229832a36b5058883ffb4a82",
+    "stored_bytes": 2322,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/synthetic-outer-series11.json",
+    "original_sha256": "11fac36486df9fa8f061e88292f23184340c5629baccaee7369d5ebcb69ccb0c",
+    "original_bytes": 21002,
+    "stored_sha256": "11fac36486df9fa8f061e88292f23184340c5629baccaee7369d5ebcb69ccb0c",
+    "stored_bytes": 21002,
+    "scope": "complete file"
+  },
+  {
+    "path": "results/raw/temporal-dedup-series11.json",
+    "original_sha256": "4079c4b99a4968ebe1217194f156b196de1442f71669a905914a061234135858",
+    "original_bytes": 64081,
+    "stored_sha256": "4079c4b99a4968ebe1217194f156b196de1442f71669a905914a061234135858",
+    "stored_bytes": 64081,
+    "scope": "complete file"
+  }
+]

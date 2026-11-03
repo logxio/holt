@@ -1,0 +1,16 @@
+{
+  "task_family": "ec",
+  "train_jsonl": "train.jsonl",
+  "train_fasta": "train.fasta",
+  "test_jsonl": "test.jsonl",
+  "test_fasta": "test.fasta",
+  "train_cluster": "train_cluster.tsv",
+  "train_hits": {
+    "mmseqs": "train_mmseqs.tsv",
+    "foldseek": "train_foldseek.tsv"
+  },
+  "test_hits": {
+    "mmseqs": "test_mmseqs.tsv",
+    "foldseek": "test_foldseek.tsv"
+  }
+}

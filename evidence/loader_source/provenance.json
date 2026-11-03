@@ -1,0 +1,39 @@
+[
+  {
+    "loader": "cdconv.py",
+    "upstream": "https://github.com/hehefan/Continuous-Discrete-Convolution",
+    "revision": "baaf9e19ec9d56b840eb21e81a0386f8ea08de20",
+    "source": "datasets.py",
+    "permalink": "https://github.com/hehefan/Continuous-Discrete-Convolution/blob/baaf9e19ec9d56b840eb21e81a0386f8ea08de20/datasets.py",
+    "sha256": "c42bf1542994ba1284cf6f8bbdfd52f4d200ece4184497b302a80cbef27f0f33",
+    "license_files": [
+      "LICENSE"
+    ],
+    "license_scope": "upstream terms; excluded from the HoLT license",
+    "license_status": "license retained"
+  },
+  {
+    "loader": "motil.py",
+    "upstream": "https://github.com/Young0222/MotiL",
+    "revision": "2a8f006d1b72d17e5bc6759e72f19b21f2b5aa64",
+    "source": "MotiL_macromolecule/datasets.py",
+    "permalink": "https://github.com/Young0222/MotiL/blob/2a8f006d1b72d17e5bc6759e72f19b21f2b5aa64/MotiL_macromolecule/datasets.py",
+    "sha256": "c42bf1542994ba1284cf6f8bbdfd52f4d200ece4184497b302a80cbef27f0f33",
+    "license_files": [
+      "LICENSE.txt"
+    ],
+    "license_scope": "upstream terms; excluded from the HoLT license",
+    "license_status": "license retained"
+  },
+  {
+    "loader": "esm_s.py",
+    "upstream": "https://github.com/DeepGraphLearning/esm-s",
+    "revision": "9fc3b9bd24876b8b1d4b5bb8859f74f9e0954e75",
+    "source": "esm_s/dataset.py",
+    "permalink": "https://github.com/DeepGraphLearning/esm-s/blob/9fc3b9bd24876b8b1d4b5bb8859f74f9e0954e75/esm_s/dataset.py",
+    "sha256": "aff46819d3bf78b056bf30c9c5cea0a12d8e88072859de02f9717d76a9412243",
+    "license_files": [],
+    "license_scope": "upstream terms; excluded from the HoLT license",
+    "license_status": "no license file in the pinned upstream root"
+  }
+]

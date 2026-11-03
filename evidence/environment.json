@@ -1,0 +1,27 @@
+{
+  "replay_python": "3.13.14 (main, Jun 10 2026, 12:24:04) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "replay_packages": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2"
+  },
+  "timing_machine": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "timing_model_versions": {
+    "python": "3.13.14",
+    "torch": "2.14.1",
+    "transformers": "4.57.6"
+  },
+  "timing_search_settings": {
+    "mmseqs": {
+      "sensitivity": 5.7,
+      "max_seqs": 100,
+      "version": "564f40d8857f4eca4e1dfe100c67c155b1933e70"
+    },
+    "foldseek": {
+      "sensitivity": 9.5,
+      "max_seqs": 100,
+      "version": "463739e0014a1549a527de589102cde98f802f37"
+    }
+  }
+}

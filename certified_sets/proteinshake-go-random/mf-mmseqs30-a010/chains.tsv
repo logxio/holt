@@ -1,0 +1,26 @@
+id	pdb	chain	family_or_cluster	task	tier	alpha	gamma	max_mmseqs_identity	learned_score	test_copy_event
+1G92	1G92		1G92	mf	mmseqs30	0.1	0.025	NaN	NaN	NaN
+1JCP	1JCP		1JCP	mf	mmseqs30	0.1	0.025	NaN	NaN	NaN
+1KZ2	1KZ2		1KZ2	mf	mmseqs30	0.1	0.025	NaN	NaN	NaN
+1LVZ	1LVZ		1LVZ	mf	mmseqs30	0.1	0.025	NaN	NaN	NaN
+1P83	1P83		1P83	mf	mmseqs30	0.1	0.025	NaN	NaN	NaN
+1QYT	1QYT		1QYT	mf	mmseqs30	0.1	0.025	NaN	NaN	NaN
+2BBL	2BBL		2BBL	mf	mmseqs30	0.1	0.025	NaN	NaN	NaN
+2DDE	2DDE		2DDE	mf	mmseqs30	0.1	0.025	NaN	NaN	NaN
+2K37	2K37		2K37	mf	mmseqs30	0.1	0.025	NaN	NaN	NaN
+2K88	2K88		2K88	mf	mmseqs30	0.1	0.025	NaN	NaN	NaN
+2KBV	2KBV		2KBV	mf	mmseqs30	0.1	0.025	NaN	NaN	NaN
+2KTN	2KTN		2KTN	mf	mmseqs30	0.1	0.025	NaN	NaN	NaN
+2L0Z	2L0Z		2L0Z	mf	mmseqs30	0.1	0.025	NaN	NaN	NaN
+2L3H	2L3H		2L77	mf	mmseqs30	0.1	0.025	NaN	NaN	NaN
+2L77	2L77		2L77	mf	mmseqs30	0.1	0.025	NaN	NaN	NaN
+2MFO	2MFO		2MFO	mf	mmseqs30	0.1	0.025	NaN	NaN	NaN
+2N9R	2N9R		2N9R	mf	mmseqs30	0.1	0.025	NaN	NaN	NaN
+3MRA	3MRA		3MRA	mf	mmseqs30	0.1	0.025	NaN	NaN	NaN
+3ZJ2	3ZJ2		3ZJ2	mf	mmseqs30	0.1	0.025	NaN	NaN	NaN
+4CVO	4CVO		4CVO	mf	mmseqs30	0.1	0.025	NaN	NaN	NaN
+5H7U	5H7U		5H7U	mf	mmseqs30	0.1	0.025	NaN	NaN	NaN
+6CT1	6CT1		6CT1	mf	mmseqs30	0.1	0.025	NaN	NaN	NaN
+6GS5	6GS5		6GS5	mf	mmseqs30	0.1	0.025	NaN	NaN	NaN
+7S3E	7S3E		7S3E	mf	mmseqs30	0.1	0.025	NaN	NaN	NaN
+7TB9	7TB9		7TB9	mf	mmseqs30	0.1	0.025	NaN	NaN	NaN

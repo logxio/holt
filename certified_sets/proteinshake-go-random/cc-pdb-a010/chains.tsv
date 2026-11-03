@@ -1,0 +1,27 @@
+id	pdb	chain	family_or_cluster	task	tier	alpha	gamma	max_mmseqs_identity	learned_score	test_copy_event
+1G92	1G92		1G92	cc	pdb	0.1	0.025	NaN	NaN	NaN
+1JCP	1JCP		1JCP	cc	pdb	0.1	0.025	NaN	NaN	NaN
+1KZ2	1KZ2		1KZ2	cc	pdb	0.1	0.025	NaN	NaN	NaN
+1LVZ	1LVZ		1LVZ	cc	pdb	0.1	0.025	NaN	NaN	NaN
+1P83	1P83		1P83	cc	pdb	0.1	0.025	NaN	NaN	NaN
+1QYT	1QYT		1QYT	cc	pdb	0.1	0.025	NaN	NaN	NaN
+1ZPX	1ZPX		1ZPX	cc	pdb	0.1	0.025	NaN	NaN	NaN
+2BBL	2BBL		2BBL	cc	pdb	0.1	0.025	NaN	NaN	NaN
+2K37	2K37		2K37	cc	pdb	0.1	0.025	NaN	NaN	NaN
+2K88	2K88		2K88	cc	pdb	0.1	0.025	NaN	NaN	NaN
+2KBV	2KBV		2KBV	cc	pdb	0.1	0.025	NaN	NaN	NaN
+2KTN	2KTN		2KTN	cc	pdb	0.1	0.025	NaN	NaN	NaN
+2L0Z	2L0Z		2L0Z	cc	pdb	0.1	0.025	NaN	NaN	NaN
+2L3H	2L3H		2L77	cc	pdb	0.1	0.025	NaN	NaN	NaN
+2L77	2L77		2L77	cc	pdb	0.1	0.025	NaN	NaN	NaN
+2MFO	2MFO		2MFO	cc	pdb	0.1	0.025	NaN	NaN	NaN
+2N9R	2N9R		2N9R	cc	pdb	0.1	0.025	NaN	NaN	NaN
+3MRA	3MRA		3MRA	cc	pdb	0.1	0.025	NaN	NaN	NaN
+3ZJ2	3ZJ2		3ZJ2	cc	pdb	0.1	0.025	NaN	NaN	NaN
+4CVO	4CVO		4CVO	cc	pdb	0.1	0.025	NaN	NaN	NaN
+5H7U	5H7U		5H7U	cc	pdb	0.1	0.025	NaN	NaN	NaN
+6CT1	6CT1		6CT1	cc	pdb	0.1	0.025	NaN	NaN	NaN
+6GS5	6GS5		6GS5	cc	pdb	0.1	0.025	NaN	NaN	NaN
+6QAN	6QAN		6QAN	cc	pdb	0.1	0.025	NaN	NaN	NaN
+7S3E	7S3E		7S3E	cc	pdb	0.1	0.025	NaN	NaN	NaN
+7TB9	7TB9		7TB9	cc	pdb	0.1	0.025	NaN	NaN	NaN

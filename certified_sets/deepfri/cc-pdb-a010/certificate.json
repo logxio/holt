@@ -1,0 +1,33 @@
+{
+  "protocol": "HoLT",
+  "cohort": "deepfri",
+  "task": "cc",
+  "tier": "pdb",
+  "score_routes": [
+    "MMseqs2",
+    "Foldseek",
+    "ESM-2",
+    "ESM C"
+  ],
+  "alpha": 0.1,
+  "delta": 0.1,
+  "gamma": 0.025,
+  "calibration_representatives": 395,
+  "selected_index": null,
+  "selected_cut": null,
+  "selected_calibration_n": null,
+  "selected_calibration_events": null,
+  "binomial_upper_bound": null,
+  "certified_chains": 0,
+  "measured_test_copy_events": 0,
+  "chains": "chains.tsv",
+  "chains_sha256": "3236eae6985a65f56ca796d55b0df645c7432727ba82e164c0d910fb1bc70124",
+  "source_sha256": "626af86e79706ef81d84c77c47fe5763c41f31f007836276d08fca444f349a93",
+  "provenance": {
+    "dataset_release": "DeepFRI original 95% sequence split",
+    "annotation_vocabulary": "DeepFRI 2019 Gene Ontology vocabulary",
+    "sequence_structure_source": "PDB SEQRES and C-alpha structures",
+    "deepfri_source_commit": "3bd6c7eae67894ccedbe1117e33b3abe544bca71"
+  },
+  "source_kind": "frozen certified-chain evidence"
+}
