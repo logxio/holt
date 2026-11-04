@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1200 460" role="img" aria-labelledby="title">
-<title id="title">Leaderboard Reversal on HoLT Certified Hard Set (alpha = 0.1, delta = 0.1)</title>
+<title id="title">Leaderboard Reversal from Full 95% Test (n=1,919) to HoLT Family Hard Set (n=37)</title>
 <defs>
   <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1E293B"/><stop offset="1" stop-color="#0F172A"/></linearGradient>
   <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="0.6" fill="#94A3B8" opacity="0.12"/></pattern>
@@ -27,7 +27,7 @@
 <rect x="1" y="1" width="1198" height="458" rx="14" fill="url(#dots)" />
 <rect x="20" y="20" width="390" height="420" rx="12" fill="#1E293B" stroke="#334155" />
 <text x="38" y="43" font-size="16" font-weight="700" fill="#F8FAFC" text-anchor="start"><tspan x="38" dy="0">Stated &quot;&lt;30% SI&quot; Benchmark Illusion </tspan><tspan x="38" dy="22">(DeepFRI EC)</tspan></text>
-<text x="440" y="43" font-size="17" font-weight="700" fill="#F8FAFC" text-anchor="start">Leaderboard Reversal on HoLT Certified Hard Set (alpha = 0.1, delta = 0.1)</text>
+<text x="440" y="43" font-size="17" font-weight="700" fill="#F8FAFC" text-anchor="start">HoLT Family Hard Set (n=37; alpha = delta = 0.1)</text>
 <path d="M428 22V438" fill="none" stroke="#334155" stroke-width="1" />
 <circle cx="103" cy="160" r="55" fill="none" stroke="#334155" stroke-width="9"/>
 <circle cx="103" cy="160" r="55" fill="none" stroke="#F26419" stroke-width="9" stroke-linecap="round" stroke-dasharray="345.575192" stroke-dashoffset="116.458840" transform="rotate(-90 103 160)" class="ring"/>
@@ -42,140 +42,197 @@
 <path d="M38 233H392" fill="none" stroke="#334155" stroke-width="1" />
 <rect x="34" y="393" width="362" height="36" rx="6" fill="#0F172A" />
 <text x="45" y="407" font-size="11.6" font-weight="600" fill="#F8FAFC" text-anchor="start">Full-Split Evaluation Rewards Memorized Homology Transfer</text>
-<text x="830" y="95" font-size="12" font-weight="600" fill="#94A3B8" text-anchor="middle">Full Test Fmax (%)</text>
-<text x="1068" y="95" font-size="12" font-weight="600" fill="#F8FAFC" text-anchor="middle">HoLT Family Hard Set Fmax (%)</text>
-<rect x="440" y="107" width="736" height="44" rx="7" fill="#1E293B" stroke="#C85A17" />
-<rect x="440" y="115" width="3" height="28" rx="1.5" fill="#F26419" />
-<text x="454" y="125" font-size="13.7" font-weight="700" fill="#F8FAFC" text-anchor="start">Four-Route Combiner (Ours)</text>
-<text x="454" y="142" font-size="10.5" font-weight="400" fill="#F26419" text-anchor="start">Rank #1 (+7.9 over ESM-S)</text>
-<rect x="738" y="121" width="180" height="12" rx="2" fill="#1E293B" />
-<path d="M774 118V136" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M810 118V136" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M846 118V136" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M882 118V136" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M918 118V136" fill="none" stroke="#334155" stroke-width="0.6" />
-<rect x="738" y="121" width="151.92000000000002" height="12" rx="2" fill="#94A3B8" class="bar" opacity="0.55" style="animation-delay:0.0s"/>
-<text x="896.9200000000001" y="132" font-size="12.6" font-weight="400" fill="#CBD5E1" text-anchor="start">84.4%</text>
-<rect x="978" y="121" width="180" height="12" rx="2" fill="#1E293B" />
-<path d="M1014 118V136" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M1050 118V136" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M1086 118V136" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M1122 118V136" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M1158 118V136" fill="none" stroke="#334155" stroke-width="0.6" />
-<rect x="978" y="121" width="61.739999999999995" height="12" rx="2" fill="#F26419" class="bar" opacity="1" style="animation-delay:0.0s"/>
+<text x="830" y="85" font-size="11.6" font-weight="600" fill="#94A3B8" text-anchor="middle">Full 95% Test (n=1,919)</text>
+<text x="830" y="101" font-size="11.6" font-weight="600" fill="#94A3B8" text-anchor="middle">Fmax (%)</text>
+<text x="1068" y="85" font-size="11.6" font-weight="600" fill="#F8FAFC" text-anchor="middle">HoLT Family Hard Set (n=37)</text>
+<text x="1068" y="101" font-size="11.6" font-weight="600" fill="#F8FAFC" text-anchor="middle">Fmax (%)</text>
+<g data-method="Stacked combiner" data-full="91.6" data-family="34.3">
+<rect x="440" y="107" width="736" height="38" rx="7" fill="#1E293B" stroke="#C85A17"/>
+<text x="454" y="125" font-size="13.2" font-weight="700" fill="#F8FAFC" text-anchor="start">Gradient-boosted combiner</text>
+<text x="454" y="142" font-size="10.5" font-weight="400" fill="#C85A17" text-anchor="start">Validation-trained</text>
+<rect x="738" y="121" width="180" height="12" rx="2" fill="#1E293B"/>
+<path d="M774 118V136" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M810 118V136" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M846 118V136" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M882 118V136" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M918 118V136" fill="none" stroke="#334155" stroke-width="0.6"/>
+<rect x="738" y="121" width="164.880" height="12" rx="2" fill="#94A3B8" class="bar" opacity="0.55" style="animation-delay:0.00s"/>
+<text x="909.88" y="132" font-size="12.6" font-weight="400" fill="#CBD5E1" text-anchor="start">91.6%</text>
+<rect x="978" y="121" width="180" height="12" rx="2" fill="#1E293B"/>
+<path d="M1014 118V136" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1050 118V136" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1086 118V136" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1122 118V136" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1158 118V136" fill="none" stroke="#334155" stroke-width="0.6"/>
+<rect x="978" y="121" width="61.740" height="12" rx="2" fill="#C85A17" class="bar" opacity="1" style="animation-delay:0.00s"/>
 <text x="1046.74" y="132" font-size="12.6" font-weight="700" fill="#F8FAFC" text-anchor="start">34.3%</text>
-<path d="M450 196H1170" fill="none" stroke="#334155" stroke-width="0.6" />
-<text x="454" y="171" font-size="13.7" font-weight="600" fill="#F8FAFC" text-anchor="start">ESM C 600M kNN</text>
-<text x="454" y="188" font-size="10.5" font-weight="400" fill="#CBD5E1" text-anchor="start">Rank #2</text>
-<rect x="738" y="167" width="180" height="12" rx="2" fill="#1E293B" />
-<path d="M774 164V182" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M810 164V182" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M846 164V182" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M882 164V182" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M918 164V182" fill="none" stroke="#334155" stroke-width="0.6" />
-<rect x="738" y="167" width="145.26000000000002" height="12" rx="2" fill="#94A3B8" class="bar" opacity="0.55" style="animation-delay:0.07s"/>
-<text x="890.26" y="178" font-size="12.6" font-weight="400" fill="#CBD5E1" text-anchor="start">80.7%</text>
-<rect x="978" y="167" width="180" height="12" rx="2" fill="#1E293B" />
-<path d="M1014 164V182" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M1050 164V182" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M1086 164V182" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M1122 164V182" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M1158 164V182" fill="none" stroke="#334155" stroke-width="0.6" />
-<rect x="978" y="167" width="51.12" height="12" rx="2" fill="#7B3294" class="bar" opacity="1" style="animation-delay:0.07s"/>
-<text x="1036.12" y="178" font-size="12.6" font-weight="700" fill="#F8FAFC" text-anchor="start">28.4%</text>
-<path d="M450 242H1170" fill="none" stroke="#334155" stroke-width="0.6" />
-<text x="454" y="217" font-size="13.7" font-weight="600" fill="#F8FAFC" text-anchor="start">ESM-S 650M</text>
-<text x="454" y="234" font-size="10.5" font-weight="400" fill="#CBD5E1" text-anchor="start">Rank #3 (+20.1 over Folddisco)</text>
-<rect x="738" y="213" width="180" height="12" rx="2" fill="#1E293B" />
-<path d="M774 210V228" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M810 210V228" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M846 210V228" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M882 210V228" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M918 210V228" fill="none" stroke="#334155" stroke-width="0.6" />
-<rect x="738" y="213" width="144.9" height="12" rx="2" fill="#94A3B8" class="bar" opacity="0.55" style="animation-delay:0.14s"/>
-<text x="889.9" y="224" font-size="12.6" font-weight="400" fill="#CBD5E1" text-anchor="start">80.5%</text>
-<rect x="978" y="213" width="180" height="12" rx="2" fill="#1E293B" />
-<path d="M1014 210V228" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M1050 210V228" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M1086 210V228" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M1122 210V228" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M1158 210V228" fill="none" stroke="#334155" stroke-width="0.6" />
-<rect x="978" y="213" width="47.519999999999996" height="12" rx="2" fill="#3B4CC0" class="bar" opacity="1" style="animation-delay:0.14s"/>
-<text x="1032.52" y="224" font-size="12.6" font-weight="700" fill="#F8FAFC" text-anchor="start">26.4%</text>
-<path d="M450 288H1170" fill="none" stroke="#334155" stroke-width="0.6" />
-<text x="454" y="263" font-size="13.7" font-weight="600" fill="#F8FAFC" text-anchor="start">ESM-2 650M kNN</text>
-<text x="454" y="280" font-size="10.5" font-weight="400" fill="#CBD5E1" text-anchor="start">Rank #4</text>
-<rect x="738" y="259" width="180" height="12" rx="2" fill="#1E293B" />
-<path d="M774 256V274" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M810 256V274" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M846 256V274" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M882 256V274" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M918 256V274" fill="none" stroke="#334155" stroke-width="0.6" />
-<rect x="738" y="259" width="141.48" height="12" rx="2" fill="#94A3B8" class="bar" opacity="0.55" style="animation-delay:0.21000000000000002s"/>
-<text x="886.48" y="270" font-size="12.6" font-weight="400" fill="#CBD5E1" text-anchor="start">78.6%</text>
-<rect x="978" y="259" width="180" height="12" rx="2" fill="#1E293B" />
-<path d="M1014 256V274" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M1050 256V274" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M1086 256V274" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M1122 256V274" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M1158 256V274" fill="none" stroke="#334155" stroke-width="0.6" />
-<rect x="978" y="259" width="42.84" height="12" rx="2" fill="#1D63B8" class="bar" opacity="1" style="animation-delay:0.21000000000000002s"/>
-<text x="1027.8400000000001" y="270" font-size="12.6" font-weight="700" fill="#F8FAFC" text-anchor="start">23.8%</text>
-<path d="M450 334H1170" fill="none" stroke="#334155" stroke-width="0.6" />
-<text x="454" y="309" font-size="13.7" font-weight="600" fill="#F8FAFC" text-anchor="start">DeepFRI GCN</text>
-<text x="454" y="326" font-size="10.5" font-weight="400" fill="#D99B26" text-anchor="start">Rank #5</text>
-<rect x="738" y="305" width="180" height="12" rx="2" fill="#1E293B" />
-<path d="M774 302V320" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M810 302V320" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M846 302V320" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M882 302V320" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M918 302V320" fill="none" stroke="#334155" stroke-width="0.6" />
-<rect x="738" y="305" width="116.82000000000001" height="12" rx="2" fill="#94A3B8" class="bar" opacity="0.55" style="animation-delay:0.28s"/>
-<text x="861.82" y="316" font-size="12.6" font-weight="400" fill="#CBD5E1" text-anchor="start">64.9%</text>
-<rect x="978" y="305" width="180" height="12" rx="2" fill="#1E293B" />
-<path d="M1014 302V320" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M1050 302V320" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M1086 302V320" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M1122 302V320" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M1158 302V320" fill="none" stroke="#334155" stroke-width="0.6" />
-<rect x="978" y="305" width="37.080000000000005" height="12" rx="2" fill="#D99B26" class="bar" opacity="1" style="animation-delay:0.28s"/>
-<text x="1022.08" y="316" font-size="12.6" font-weight="700" fill="#F8FAFC" text-anchor="start">20.6%</text>
-<path d="M450 380H1170" fill="none" stroke="#334155" stroke-width="0.6" />
-<text x="454" y="355" font-size="13.7" font-weight="600" fill="#F8FAFC" text-anchor="start">Foldseek (3Di+AA)</text>
-<text x="454" y="372" font-size="10.5" font-weight="400" fill="#94A3B8" text-anchor="start">Structure Alignment Collapses</text>
-<rect x="738" y="351" width="180" height="12" rx="2" fill="#1E293B" />
-<path d="M774 348V366" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M810 348V366" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M846 348V366" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M882 348V366" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M918 348V366" fill="none" stroke="#334155" stroke-width="0.6" />
-<rect x="738" y="351" width="144.36" height="12" rx="2" fill="#94A3B8" class="bar" opacity="0.55" style="animation-delay:0.35000000000000003s"/>
-<text x="889.36" y="362" font-size="12.6" font-weight="400" fill="#CBD5E1" text-anchor="start">80.2%</text>
-<rect x="978" y="351" width="180" height="12" rx="2" fill="#1E293B" />
-<path d="M1014 348V366" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M1050 348V366" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M1086 348V366" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M1122 348V366" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M1158 348V366" fill="none" stroke="#334155" stroke-width="0.6" />
-<rect x="978" y="351" width="33.12" height="12" rx="2" fill="#64748B" class="bar" opacity="1" style="animation-delay:0.35000000000000003s"/>
-<text x="1018.12" y="362" font-size="12.6" font-weight="700" fill="#F8FAFC" text-anchor="start">18.4%</text>
-<path d="M450 426H1170" fill="none" stroke="#334155" stroke-width="0.6" />
-<text x="454" y="401" font-size="13.7" font-weight="600" fill="#F8FAFC" text-anchor="start">MMseqs2 (Sequence)</text>
-<text x="454" y="418" font-size="10.5" font-weight="400" fill="#94A3B8" text-anchor="start">Sequence Alignment Collapses (-77.2 pts)</text>
-<rect x="738" y="397" width="180" height="12" rx="2" fill="#1E293B" />
-<path d="M774 394V412" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M810 394V412" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M846 394V412" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M882 394V412" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M918 394V412" fill="none" stroke="#334155" stroke-width="0.6" />
-<rect x="738" y="397" width="143.64" height="12" rx="2" fill="#94A3B8" class="bar" opacity="0.55" style="animation-delay:0.42000000000000004s"/>
-<text x="888.64" y="408" font-size="12.6" font-weight="400" fill="#CBD5E1" text-anchor="start">79.8%</text>
-<rect x="978" y="397" width="180" height="12" rx="2" fill="#1E293B" />
-<path d="M1014 394V412" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M1050 394V412" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M1086 394V412" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M1122 394V412" fill="none" stroke="#334155" stroke-width="0.6" />
-<path d="M1158 394V412" fill="none" stroke="#334155" stroke-width="0.6" />
-<rect x="978" y="397" width="4.680000000000001" height="12" rx="2" fill="#94A3B8" class="bar" opacity="1" style="animation-delay:0.42000000000000004s"/>
-<text x="989.68" y="408" font-size="12.6" font-weight="700" fill="#F8FAFC" text-anchor="start">2.6%</text>
+</g>
+<g data-method="ESM C 600M kNN" data-full="86.8" data-family="33.5">
+<path d="M450 183H1170" fill="none" stroke="#334155" stroke-width="0.6"/>
+<text x="454" y="160" font-size="13.2" font-weight="600" fill="#F8FAFC" text-anchor="start">ESM C 600M kNN</text>
+<text x="454" y="177" font-size="10.5" font-weight="400" fill="#CBD5E1" text-anchor="start">Pretrained protein language model</text>
+<rect x="738" y="156" width="180" height="12" rx="2" fill="#1E293B"/>
+<path d="M774 153V171" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M810 153V171" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M846 153V171" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M882 153V171" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M918 153V171" fill="none" stroke="#334155" stroke-width="0.6"/>
+<rect x="738" y="156" width="156.240" height="12" rx="2" fill="#94A3B8" class="bar" opacity="0.55" style="animation-delay:0.07s"/>
+<text x="901.24" y="167" font-size="12.6" font-weight="400" fill="#CBD5E1" text-anchor="start">86.8%</text>
+<rect x="978" y="156" width="180" height="12" rx="2" fill="#1E293B"/>
+<path d="M1014 153V171" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1050 153V171" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1086 153V171" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1122 153V171" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1158 153V171" fill="none" stroke="#334155" stroke-width="0.6"/>
+<rect x="978" y="156" width="60.300" height="12" rx="2" fill="#7B3294" class="bar" opacity="1" style="animation-delay:0.07s"/>
+<text x="1045.3" y="167" font-size="12.6" font-weight="700" fill="#F8FAFC" text-anchor="start">33.5%</text>
+</g>
+<g data-method="Four-route transfer" data-full="91.3" data-family="32.5">
+<path d="M450 218H1170" fill="none" stroke="#334155" stroke-width="0.6"/>
+<text x="454" y="195" font-size="13.2" font-weight="600" fill="#F8FAFC" text-anchor="start">Four-route transfer</text>
+<text x="454" y="212" font-size="10.5" font-weight="400" fill="#C85A17" text-anchor="start">No task training; four-route vote</text>
+<rect x="738" y="191" width="180" height="12" rx="2" fill="#1E293B"/>
+<path d="M774 188V206" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M810 188V206" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M846 188V206" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M882 188V206" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M918 188V206" fill="none" stroke="#334155" stroke-width="0.6"/>
+<rect x="738" y="191" width="164.340" height="12" rx="2" fill="#94A3B8" class="bar" opacity="0.55" style="animation-delay:0.14s"/>
+<text x="909.34" y="202" font-size="12.6" font-weight="400" fill="#CBD5E1" text-anchor="start">91.3%</text>
+<rect x="978" y="191" width="180" height="12" rx="2" fill="#1E293B"/>
+<path d="M1014 188V206" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1050 188V206" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1086 188V206" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1122 188V206" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1158 188V206" fill="none" stroke="#334155" stroke-width="0.6"/>
+<rect x="978" y="191" width="58.500" height="12" rx="2" fill="#C85A17" class="bar" opacity="1" style="animation-delay:0.14s"/>
+<text x="1043.5" y="202" font-size="12.6" font-weight="700" fill="#F8FAFC" text-anchor="start">32.5%</text>
+</g>
+<g data-method="ESM-2 650M kNN" data-full="87.3" data-family="28.5">
+<path d="M450 253H1170" fill="none" stroke="#334155" stroke-width="0.6"/>
+<text x="454" y="230" font-size="13.2" font-weight="600" fill="#F8FAFC" text-anchor="start">ESM-2 650M kNN</text>
+<text x="454" y="247" font-size="10.5" font-weight="400" fill="#CBD5E1" text-anchor="start">Pretrained protein language model</text>
+<rect x="738" y="226" width="180" height="12" rx="2" fill="#1E293B"/>
+<path d="M774 223V241" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M810 223V241" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M846 223V241" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M882 223V241" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M918 223V241" fill="none" stroke="#334155" stroke-width="0.6"/>
+<rect x="738" y="226" width="157.140" height="12" rx="2" fill="#94A3B8" class="bar" opacity="0.55" style="animation-delay:0.21s"/>
+<text x="902.14" y="237" font-size="12.6" font-weight="400" fill="#CBD5E1" text-anchor="start">87.3%</text>
+<rect x="978" y="226" width="180" height="12" rx="2" fill="#1E293B"/>
+<path d="M1014 223V241" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1050 223V241" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1086 223V241" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1122 223V241" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1158 223V241" fill="none" stroke="#334155" stroke-width="0.6"/>
+<rect x="978" y="226" width="51.300" height="12" rx="2" fill="#1D63B8" class="bar" opacity="1" style="animation-delay:0.21s"/>
+<text x="1036.3" y="237" font-size="12.6" font-weight="700" fill="#F8FAFC" text-anchor="start">28.5%</text>
+</g>
+<g data-method="ESM-S 650M" data-full="86.2" data-family="24.6">
+<path d="M450 288H1170" fill="none" stroke="#334155" stroke-width="0.6"/>
+<text x="454" y="265" font-size="13.2" font-weight="600" fill="#F8FAFC" text-anchor="start">ESM-S 650M</text>
+<text x="454" y="282" font-size="10.5" font-weight="400" fill="#CBD5E1" text-anchor="start">Structure-informed PLM</text>
+<rect x="738" y="261" width="180" height="12" rx="2" fill="#1E293B"/>
+<path d="M774 258V276" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M810 258V276" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M846 258V276" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M882 258V276" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M918 258V276" fill="none" stroke="#334155" stroke-width="0.6"/>
+<rect x="738" y="261" width="155.160" height="12" rx="2" fill="#94A3B8" class="bar" opacity="0.55" style="animation-delay:0.28s"/>
+<text x="900.16" y="272" font-size="12.6" font-weight="400" fill="#CBD5E1" text-anchor="start">86.2%</text>
+<rect x="978" y="261" width="180" height="12" rx="2" fill="#1E293B"/>
+<path d="M1014 258V276" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1050 258V276" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1086 258V276" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1122 258V276" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1158 258V276" fill="none" stroke="#334155" stroke-width="0.6"/>
+<rect x="978" y="261" width="44.280" height="12" rx="2" fill="#3B4CC0" class="bar" opacity="1" style="animation-delay:0.28s"/>
+<text x="1029.28" y="272" font-size="12.6" font-weight="700" fill="#F8FAFC" text-anchor="start">24.6%</text>
+</g>
+<g data-method="DeepFRI GCN" data-full="73.7" data-family="22.8">
+<path d="M450 323H1170" fill="none" stroke="#334155" stroke-width="0.6"/>
+<text x="454" y="300" font-size="13.2" font-weight="600" fill="#F8FAFC" text-anchor="start">DeepFRI GCN</text>
+<text x="454" y="317" font-size="10.5" font-weight="400" fill="#CBD5E1" text-anchor="start">Graph convolutional network</text>
+<rect x="738" y="296" width="180" height="12" rx="2" fill="#1E293B"/>
+<path d="M774 293V311" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M810 293V311" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M846 293V311" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M882 293V311" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M918 293V311" fill="none" stroke="#334155" stroke-width="0.6"/>
+<rect x="738" y="296" width="132.660" height="12" rx="2" fill="#94A3B8" class="bar" opacity="0.55" style="animation-delay:0.35s"/>
+<text x="877.66" y="307" font-size="12.6" font-weight="400" fill="#CBD5E1" text-anchor="start">73.7%</text>
+<rect x="978" y="296" width="180" height="12" rx="2" fill="#1E293B"/>
+<path d="M1014 293V311" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1050 293V311" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1086 293V311" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1122 293V311" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1158 293V311" fill="none" stroke="#334155" stroke-width="0.6"/>
+<rect x="978" y="296" width="41.040" height="12" rx="2" fill="#D99B26" class="bar" opacity="1" style="animation-delay:0.35s"/>
+<text x="1026.04" y="307" font-size="12.6" font-weight="700" fill="#F8FAFC" text-anchor="start">22.8%</text>
+</g>
+<g data-method="Foldseek" data-full="90.1" data-family="18.4">
+<path d="M450 358H1170" fill="none" stroke="#334155" stroke-width="0.6"/>
+<text x="454" y="335" font-size="13.2" font-weight="600" fill="#F8FAFC" text-anchor="start">Foldseek</text>
+<text x="454" y="352" font-size="10.5" font-weight="400" fill="#CBD5E1" text-anchor="start">3Di + AA structure alignment</text>
+<rect x="738" y="331" width="180" height="12" rx="2" fill="#1E293B"/>
+<path d="M774 328V346" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M810 328V346" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M846 328V346" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M882 328V346" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M918 328V346" fill="none" stroke="#334155" stroke-width="0.6"/>
+<rect x="738" y="331" width="162.180" height="12" rx="2" fill="#94A3B8" class="bar" opacity="0.55" style="animation-delay:0.42s"/>
+<text x="907.18" y="342" font-size="12.6" font-weight="400" fill="#CBD5E1" text-anchor="start">90.1%</text>
+<rect x="978" y="331" width="180" height="12" rx="2" fill="#1E293B"/>
+<path d="M1014 328V346" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1050 328V346" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1086 328V346" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1122 328V346" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1158 328V346" fill="none" stroke="#334155" stroke-width="0.6"/>
+<rect x="978" y="331" width="33.120" height="12" rx="2" fill="#64748B" class="bar" opacity="1" style="animation-delay:0.42s"/>
+<text x="1018.12" y="342" font-size="12.6" font-weight="700" fill="#F8FAFC" text-anchor="start">18.4%</text>
+</g>
+<g data-method="Folddisco" data-full="82.4" data-family="4.5">
+<path d="M450 393H1170" fill="none" stroke="#334155" stroke-width="0.6"/>
+<text x="454" y="370" font-size="13.2" font-weight="600" fill="#F8FAFC" text-anchor="start">Folddisco</text>
+<text x="454" y="387" font-size="10.5" font-weight="400" fill="#CBD5E1" text-anchor="start">3D motif hashing</text>
+<rect x="738" y="366" width="180" height="12" rx="2" fill="#1E293B"/>
+<path d="M774 363V381" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M810 363V381" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M846 363V381" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M882 363V381" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M918 363V381" fill="none" stroke="#334155" stroke-width="0.6"/>
+<rect x="738" y="366" width="148.320" height="12" rx="2" fill="#94A3B8" class="bar" opacity="0.55" style="animation-delay:0.49s"/>
+<text x="893.32" y="377" font-size="12.6" font-weight="400" fill="#CBD5E1" text-anchor="start">82.4%</text>
+<rect x="978" y="366" width="180" height="12" rx="2" fill="#1E293B"/>
+<path d="M1014 363V381" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1050 363V381" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1086 363V381" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1122 363V381" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1158 363V381" fill="none" stroke="#334155" stroke-width="0.6"/>
+<rect x="978" y="366" width="8.100" height="12" rx="2" fill="#94A3B8" class="bar" opacity="1" style="animation-delay:0.49s"/>
+<text x="993.1" y="377" font-size="12.6" font-weight="700" fill="#F8FAFC" text-anchor="start">4.5%</text>
+</g>
+<g data-method="MMseqs2" data-full="90.2" data-family="2.6">
+<path d="M450 428H1170" fill="none" stroke="#334155" stroke-width="0.6"/>
+<text x="454" y="405" font-size="13.2" font-weight="600" fill="#F8FAFC" text-anchor="start">MMseqs2</text>
+<text x="454" y="422" font-size="10.5" font-weight="400" fill="#CBD5E1" text-anchor="start">Profile sequence alignment</text>
+<rect x="738" y="401" width="180" height="12" rx="2" fill="#1E293B"/>
+<path d="M774 398V416" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M810 398V416" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M846 398V416" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M882 398V416" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M918 398V416" fill="none" stroke="#334155" stroke-width="0.6"/>
+<rect x="738" y="401" width="162.360" height="12" rx="2" fill="#94A3B8" class="bar" opacity="0.55" style="animation-delay:0.56s"/>
+<text x="907.36" y="412" font-size="12.6" font-weight="400" fill="#CBD5E1" text-anchor="start">90.2%</text>
+<rect x="978" y="401" width="180" height="12" rx="2" fill="#1E293B"/>
+<path d="M1014 398V416" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1050 398V416" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1086 398V416" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1122 398V416" fill="none" stroke="#334155" stroke-width="0.6"/>
+<path d="M1158 398V416" fill="none" stroke="#334155" stroke-width="0.6"/>
+<rect x="978" y="401" width="4.680" height="12" rx="2" fill="#94A3B8" class="bar" opacity="1" style="animation-delay:0.56s"/>
+<text x="989.68" y="412" font-size="12.6" font-weight="700" fill="#F8FAFC" text-anchor="start">2.6%</text>
+</g>
 </svg>

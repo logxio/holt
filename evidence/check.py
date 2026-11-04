@@ -1,6 +1,7 @@
 """Recompute every number of the README's paper-to-code map from the TSVs beside this file (Python 3 standard library)."""
 import csv
 import math
+import sys
 from collections import defaultdict
 from pathlib import Path
 
@@ -103,5 +104,7 @@ for task, tier, alpha in (("bp", "mmseqs30", "0.1"), ("cc", "mmseqs30", "0.1"), 
           f"period cells above the 90% tail: chain by chain {exceed['chain']}/4, one chain per family {exceed['family']}/4,",
           f"each family once {exceed['family_once']}/4")
 
+if str(HERE) not in sys.path:
+    sys.path.insert(0, str(HERE))
 from verify import main as verify_all
 verify_all()

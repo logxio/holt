@@ -23,12 +23,12 @@ def binary(name, supplied, instruction):
 
 
 def structure_dir(root, part):
-    for suffix in ("pdb_ca", "pdb"):
+    for suffix in ("pdb", "pdb_ca"):
         path = root / part / suffix
         if path.is_dir():
             return path
-    raise FileNotFoundError(f"Foldseek structures missing: expected {root / part / 'pdb_ca'} "
-                            f"or {root / part / 'pdb'} (one chain per file)")
+    raise FileNotFoundError(f"Foldseek structures missing: expected {root / part / 'pdb'} (full-atom PDB/mmCIF) "
+                            f"or {root / part / 'pdb_ca'} (C-alpha structures, one chain per file)")
 
 
 def run(command, log):
